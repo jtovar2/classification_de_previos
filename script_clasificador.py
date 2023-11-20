@@ -1,6 +1,8 @@
 import csv
 
 
+
+print('ejemplooo')
 minimo_y_maximos_por_atributo = dict()
 minimo_y_maximos_por_atributo['Profundidad efectiva (cm)'] = dict()
 minimo_y_maximos_por_atributo['Profundidad efectiva (cm)']['minimo'] = 0
