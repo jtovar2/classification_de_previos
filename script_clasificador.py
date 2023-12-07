@@ -793,10 +793,37 @@ def correr_pruebas():
 
 
 def conseguir_previas_de_shapefile(shapefile_path):
-    sf = shapefile.Reader("Ejemplo.shp", dbf="Ejemplo.dbf")
+    sf = shapefile.Reader("Vocacion/Vocacion.shp", dbf="Vocacion/Vocacion.dbf")
+    writer = shapefile.Writer(dbf='new_file4.dbf')
+
+
+
+    for field in sf.fields:
+        if field[0] == 'DeletionFlag':
+            continue
+        writer.field(field[0], field[1], field[2])
+
+    for clase in clases:
+        writer.field(clase, 'C', '50')
+
     for record in sf.records():
-        resultados = function_para_clasificar(record.as_dict())
-        print(resultados)
+        new_record = dict( record.as_dict())
+
+        ###por cada vocacion
+        for clase in clases:
+            new_record[clase] = 'si'
+
+
+        writer.record(**new_record)
+
+        #resultados = function_para_clasificar(record.as_dict())
+
+
+        #print(resultados)
+    writer.close()
+
+    ##r = shapefile.Reader(dbf='new_file3.dbf')
+
 
 
 conseguir_previas_de_shapefile("Ejemplo.shp")
