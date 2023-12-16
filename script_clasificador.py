@@ -773,6 +773,8 @@ def function_para_clasificar(fila_del_excel):
 def leer_csv_de_previas():
     with open('clases.csv', mode='w', encoding='utf-8') as output:
         csvwriter = csv.writer(output, delimiter=';')
+        csvwriter.writerow(['Codigo Perfil', 'Clases','Clases Que No'])
+
         with open('excel.csv', mode='r', encoding="utf-8") as csv_file:
             csv_reader = csv.DictReader(csv_file, delimiter=';')
             line_count = 0
