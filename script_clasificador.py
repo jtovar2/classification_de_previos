@@ -4,595 +4,595 @@ import shapefile
 
 print('ejemplooo')
 minimo_y_maximos_por_atributo = dict()
-minimo_y_maximos_por_atributo['PROFUNDIDA'] = dict()
-minimo_y_maximos_por_atributo['PROFUNDIDA']['minimo'] = 0
-minimo_y_maximos_por_atributo['PROFUNDIDA']['maximo'] = 151
+minimo_y_maximos_por_atributo['Profundidad efectiva (cm)'] = dict()
+minimo_y_maximos_por_atributo['Profundidad efectiva (cm)']['minimo'] = 0
+minimo_y_maximos_por_atributo['Profundidad efectiva (cm)']['maximo'] = 151
 
 ## array based
 ##  <50
 
 
 prueba = dict()
-prueba['CLASE_DE_C'] = '4'
-prueba['CLASE_DE_H'] = '5'
-prueba['PENDIENTE'] = 'b'
-prueba['EROSION'] = "No hay"
-prueba['DRENAJE_NA'] = 'Bien Drenado'
-prueba['INUNDABILI'] = 'No hay'
-prueba['DURACION'] = '<3'
-prueba['FRAGMENTOS'] = '<3'
-prueba['PROFUNDIDA'] = '100-150'
-prueba['FERTILIDAD'] = 'muy baja'
+#prueba['CLASE_DE_C'] = '4'
+#prueba['CLASE_DE_H'] = '5'
+prueba['Pendiente'] = 'b'
+prueba['Erosion\n(Grado)'] = "No hay"
+prueba['Drenaje natural'] = 'Bien Drenado'
+prueba['Inundaciones/Encharcamientos\n(Frecuencia)'] = 'No hay'
+prueba['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+prueba['Fragmentos roca (% por Vol.) '] = '<3'
+prueba['Profundidad efectiva (cm)'] = '100-150'
+prueba['Fertilidad'] = 'muy baja'
 prueba['Sales y sodio'] = 'No hay'
-prueba['SODICIDAD'] = '0-15'
+#prueba['SODICIDAD'] = '0-15'
 
 
 clases = dict()
 clases["CTIc"] = dict()
-clases["CTIc"]['CLASE_DE_C'] = ['4']
-clases["CTIc"]['CLASE_DE_H'] = ['bimodal']
-clases["CTIc"]['PENDIENTE'] = "<7"
-clases["CTIc"]['EROSION'] = ["No hay"]
-clases["CTIc"]['DRENAJE_NA'] = ['Bien Drenado']
-clases["CTIc"]['INUNDABILI'] = ['No hay']
-clases["CTIc"]['DURACION'] = '<3'
-clases["CTIc"]['FRAGMENTOS'] = '<3'
-clases["CTIc"]['PROFUNDIDA'] = '>100'
-clases["CTIc"]['FERTILIDAD'] = '>6.8'
+#clases["CTIc"]['CLASE_DE_C'] = ['4']
+#clases["CTIc"]['CLASE_DE_H'] = ['bimodal']
+clases["CTIc"]['Pendiente'] = "<7"
+clases["CTIc"]['Erosion\n(Grado)'] = ["No hay"]
+clases["CTIc"]['Drenaje natural'] = ['Bien Drenado']
+clases["CTIc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['No hay']
+clases["CTIc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CTIc"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CTIc"]['Profundidad efectiva (cm)'] = '>100'
+clases["CTIc"]['Fertilidad'] = '>6.8'
 clases["CTIc"]['ACIDEZ_POR'] = '<4'
-clases["CTIc"]['SALINIDAD'] = '<15'
-clases["CTIc"]['SODICIDAD'] = '<15'
+#clases["CTIc"]['SALINIDAD'] = '<15'
+#clases["CTIc"]['SODICIDAD'] = '<15'
 
 
 clases["CTIm"] = dict()
-clases["CTIm"]['CLASE_DE_C'] = ['9']
-clases["CTIm"]['CLASE_DE_H'] = ['bimodal']
-clases["CTIm"]['PENDIENTE'] = "<7"
-clases["CTIm"]['EROSION'] = ["no hay"]
-clases["CTIm"]['DRENAJE_NA'] = ['bien Drenado']
-clases["CTIm"]['INUNDABILI'] = ['no hay']
-clases["CTIm"]['DURACION'] = '<3'
-clases["CTIm"]['FRAGMENTOS'] = '<3'
-clases["CTIm"]['PROFUNDIDA'] = '>100'
-clases["CTIm"]['FERTILIDAD'] = '>6.8'
+#clases["CTIm"]['CLASE_DE_C'] = ['9']
+#clases["CTIm"]['CLASE_DE_H'] = ['bimodal']
+clases["CTIm"]['Pendiente'] = "<7"
+clases["CTIm"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CTIm"]['Drenaje natural'] = ['bien Drenado']
+clases["CTIm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['no hay']
+clases["CTIm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CTIm"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CTIm"]['Profundidad efectiva (cm)'] = '>100'
+clases["CTIm"]['Fertilidad'] = '>6.8'
 clases["CTIm"]['ACIDEZ_POR'] = '<4'
-clases["CTIm"]['SALINIDAD'] = '<15'
-clases["CTIm"]['SODICIDAD'] = '<15'
+#clases["CTIm"]['SALINIDAD'] = '<15'
+#clases["CTIm"]['SODICIDAD'] = '<15'
 
 
 clases["CTIf"] = dict()
-clases["CTIf"]['CLASE_DE_C'] = ['13']
-clases["CTIf"]['CLASE_DE_H'] = ['bimodal']
-clases["CTIf"]['PENDIENTE'] = "<7"
-clases["CTIf"]['EROSION'] = ["no hay"]
-clases["CTIf"]['DRENAJE_NA'] = ['bien Drenado']
-clases["CTIf"]['INUNDABILI'] = ['no hay']
-clases["CTIf"]['DURACION'] = '<3'
-clases["CTIf"]['FRAGMENTOS'] = '<3'
-clases["CTIf"]['PROFUNDIDA'] = '>100'
-clases["CTIf"]['FERTILIDAD'] = '>6.8'
+#clases["CTIf"]['CLASE_DE_C'] = ['13']
+#clases["CTIf"]['CLASE_DE_H'] = ['bimodal']
+clases["CTIf"]['Pendiente'] = "<7"
+clases["CTIf"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CTIf"]['Drenaje natural'] = ['bien Drenado']
+clases["CTIf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['no hay']
+clases["CTIf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CTIf"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CTIf"]['Profundidad efectiva (cm)'] = '>100'
+clases["CTIf"]['Fertilidad'] = '>6.8'
 clases["CTIf"]['ACIDEZ_POR'] = '<4'
-clases["CTIf"]['SALINIDAD'] = '<15'
-clases["CTIf"]['SODICIDAD'] = '<15'
+#clases["CTIf"]['SALINIDAD'] = '<15'
+#clases["CTIf"]['SODICIDAD'] = '<15'
 
 
 clases["CTSc"] = dict()
-clases["CTSc"]['CLASE_DE_C'] = ['3 , 4']
-clases["CTSc"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["CTSc"]['PENDIENTE'] = "<12"
-clases["CTSc"]['EROSION'] = ["no hay"]
-clases["CTSc"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["CTSc"]['INUNDABILI'] = ['ocasionales']
-clases["CTSc"]['DURACION'] = '<3'
-clases["CTSc"]['FRAGMENTOS'] = '<3'
-clases["CTSc"]['PROFUNDIDA'] = '>50'
-clases["CTSc"]['FERTILIDAD'] = '>3.6'
+#clases["CTSc"]['CLASE_DE_C'] = ['3 , 4']
+#clases["CTSc"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["CTSc"]['Pendiente'] = "<12"
+clases["CTSc"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CTSc"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["CTSc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["CTSc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CTSc"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CTSc"]['Profundidad efectiva (cm)'] = '>50'
+clases["CTSc"]['Fertilidad'] = '>3.6'
 clases["CTSc"]['ACIDEZ_POR'] = '<4'
-clases["CTSc"]['SALINIDAD'] = '<15'
-clases["CTSc"]['SODICIDAD'] = '<30'
+#clases["CTSc"]['SALINIDAD'] = '<15'
+#clases["CTSc"]['SODICIDAD'] = '<30'
 
 
 clases["CTSm"] = dict()
-clases["CTSm"]['CLASE_DE_C'] = ['8 , 9']
-clases["CTSm"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["CTSm"]['PENDIENTE'] = "<12"
-clases["CTSm"]['EROSION'] = ["no hay"]
-clases["CTSm"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["CTSm"]['INUNDABILI'] = ['ocasionales']
-clases["CTSm"]['DURACION'] = '<3'
-clases["CTSm"]['FRAGMENTOS'] = '<3'
-clases["CTSm"]['PROFUNDIDA'] = '>50'
-clases["CTSm"]['FERTILIDAD'] = '>3.6'
+#clases["CTSm"]['CLASE_DE_C'] = ['8 , 9']
+#clases["CTSm"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["CTSm"]['Pendiente'] = "<12"
+clases["CTSm"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CTSm"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["CTSm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["CTSm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CTSm"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CTSm"]['Profundidad efectiva (cm)'] = '>50'
+clases["CTSm"]['Fertilidad'] = '>3.6'
 clases["CTSm"]['ACIDEZ_POR'] = '<4'
-clases["CTSm"]['SALINIDAD'] = '<15'
-clases["CTSm"]['SODICIDAD'] = '<30'
+#clases["CTSm"]['SALINIDAD'] = '<15'
+#clases["CTSm"]['SODICIDAD'] = '<30'
 
 
 clases["CTSf"] = dict()
-clases["CTSf"]['CLASE_DE_C'] = ['12 , 13']
-clases["CTSf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["CTSf"]['PENDIENTE'] = "<12"
-clases["CTSf"]['EROSION'] = ["no hay"]
-clases["CTSf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["CTSf"]['INUNDABILI'] = ['ocasionales']
-clases["CTSf"]['DURACION'] = '<3'
-clases["CTSf"]['FRAGMENTOS'] = '<3'
-clases["CTSf"]['PROFUNDIDA'] = '>50'
-clases["CTSf"]['FERTILIDAD'] = '>3.6'
+#clases["CTSf"]['CLASE_DE_C'] = ['12 , 13']
+#clases["CTSf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["CTSf"]['Pendiente'] = "<12"
+clases["CTSf"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CTSf"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["CTSf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["CTSf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CTSf"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CTSf"]['Profundidad efectiva (cm)'] = '>50'
+clases["CTSf"]['Fertilidad'] = '>3.6'
 clases["CTSf"]['ACIDEZ_POR'] = '<4'
-clases["CTSf"]['SALINIDAD'] = '<15'
-clases["CTSf"]['SODICIDAD'] = '<30'
+#clases["CTSf"]['SALINIDAD'] = '<15'
+#clases["CTSf"]['SODICIDAD'] = '<30'
 
 
 clases["CPIc"] = dict()
-clases["CPIc"]['CLASE_DE_C'] = ['3 , 4']
-clases["CPIc"]['CLASE_DE_H'] = ['bimodal']
-clases["CPIc"]['PENDIENTE'] = "<12"
-clases["CPIc"]['EROSION'] = ["no hay"]
-clases["CPIc"]['DRENAJE_NA'] = ['bueno , moderado']
-clases["CPIc"]['INUNDABILI'] = ['raras']
-clases["CPIc"]['DURACION'] = '<3'
-clases["CPIc"]['FRAGMENTOS'] = '<3'
-clases["CPIc"]['PROFUNDIDA'] = '>100'
-clases["CPIc"]['FERTILIDAD'] = '>5.2'
+#clases["CPIc"]['CLASE_DE_C'] = ['3 , 4']
+#clases["CPIc"]['CLASE_DE_H'] = ['bimodal']
+clases["CPIc"]['Pendiente'] = "<12"
+clases["CPIc"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CPIc"]['Drenaje natural'] = ['bueno , moderado']
+clases["CPIc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["CPIc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CPIc"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CPIc"]['Profundidad efectiva (cm)'] = '>100'
+clases["CPIc"]['Fertilidad'] = '>5.2'
 clases["CPIc"]['ACIDEZ_POR'] = '<4'
-clases["CPIc"]['SALINIDAD'] = '<15'
-clases["CPIc"]['SODICIDAD'] = '<15'
+#clases["CPIc"]['SALINIDAD'] = '<15'
+#clases["CPIc"]['SODICIDAD'] = '<15'
 
 
 
 clases["CPIm"] = dict()
-clases["CPIm"]['CLASE_DE_C'] = ['3 , 4']
-clases["CPIm"]['CLASE_DE_H'] = ['bimodal']
-clases["CPIm"]['PENDIENTE'] = "<12"
-clases["CPIm"]['EROSION'] = ["no hay"]
-clases["CPIm"]['DRENAJE_NA'] = ['bueno , moderado']
-clases["CPIm"]['INUNDABILI'] = ['raras']
-clases["CPIm"]['DURACION'] = '<3'
-clases["CPIm"]['FRAGMENTOS'] = '<3'
-clases["CPIm"]['PROFUNDIDA'] = '>100'
-clases["CPIm"]['FERTILIDAD'] = '>5.2'
+#clases["CPIm"]['CLASE_DE_C'] = ['3 , 4']
+#clases["CPIm"]['CLASE_DE_H'] = ['bimodal']
+clases["CPIm"]['Pendiente'] = "<12"
+clases["CPIm"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CPIm"]['Drenaje natural'] = ['bueno , moderado']
+clases["CPIm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["CPIm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CPIm"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CPIm"]['Profundidad efectiva (cm)'] = '>100'
+clases["CPIm"]['Fertilidad'] = '>5.2'
 clases["CPIm"]['ACIDEZ_POR'] = '<4'
-clases["CPIm"]['SALINIDAD'] = '<15'
-clases["CPIm"]['SODICIDAD'] = '<15'
+#clases["CPIm"]['SALINIDAD'] = '<15'
+#clases["CPIm"]['SODICIDAD'] = '<15'
 
 clases["CPIf"] = dict()
-clases["CPIf"]['CLASE_DE_C'] = ['12 , 13']
-clases["CPIf"]['CLASE_DE_H'] = ['bimodal']
-clases["CPIf"]['PENDIENTE'] = "<12"
-clases["CPIf"]['EROSION'] = ["no hay"]
-clases["CPIf"]['DRENAJE_NA'] = ['bueno , moderado']
-clases["CPIf"]['INUNDABILI'] = ['raras']
-clases["CPIf"]['DURACION'] = '<3'
-clases["CPIf"]['FRAGMENTOS'] = '<3'
-clases["CPIf"]['PROFUNDIDA'] = '>100'
-clases["CPIf"]['FERTILIDAD'] = '>5.2'
+#clases["CPIf"]['CLASE_DE_C'] = ['12 , 13']
+#clases["CPIf"]['CLASE_DE_H'] = ['bimodal']
+clases["CPIf"]['Pendiente'] = "<12"
+clases["CPIf"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CPIf"]['Drenaje natural'] = ['bueno , moderado']
+clases["CPIf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["CPIf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<3'
+clases["CPIf"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CPIf"]['Profundidad efectiva (cm)'] = '>100'
+clases["CPIf"]['Fertilidad'] = '>5.2'
 clases["CPIf"]['ACIDEZ_POR'] = '<4'
-clases["CPIf"]['SALINIDAD'] = '<15'
-clases["CPIf"]['SODICIDAD'] = '<15'
+#clases["CPIf"]['SALINIDAD'] = '<15'
+#clases["CPIf"]['SODICIDAD'] = '<15'
 
 
 clases["CPSc"] = dict()
-clases["CPSc"]['CLASE_DE_C'] = ['3 , 4 , 5']
-clases["CPSc"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["CPSc"]['PENDIENTE'] = "<25"
-clases["CPSc"]['EROSION'] = ["no hay"]
-clases["CPSc"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["CPSc"]['INUNDABILI'] = ['ocacionales']
-clases["CPSc"]['DURACION'] = '<15'
-clases["CPSc"]['FRAGMENTOS'] = '<3'
-clases["CPSc"]['PROFUNDIDA'] = '>50'
-clases["CPSc"]['FERTILIDAD'] = '>3.6'
+#clases["CPSc"]['CLASE_DE_C'] = ['3 , 4 , 5']
+#clases["CPSc"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["CPSc"]['Pendiente'] = "<25"
+clases["CPSc"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CPSc"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["CPSc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["CPSc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["CPSc"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CPSc"]['Profundidad efectiva (cm)'] = '>50'
+clases["CPSc"]['Fertilidad'] = '>3.6'
 clases["CPSc"]['ACIDEZ_POR'] = '<4'
-clases["CPSc"]['SALINIDAD'] = '<15'
-clases["CPSc"]['SODICIDAD'] = '<30'
+#clases["CPSc"]['SALINIDAD'] = '<15'
+#clases["CPSc"]['SODICIDAD'] = '<30'
 
 clases["CPSm"] = dict()
-clases["CPSm"]['CLASE_DE_C'] = ['8 , 9']
-clases["CPSm"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["CPSm"]['PENDIENTE'] = "<25"
-clases["CPSm"]['EROSION'] = ["no hay"]
-clases["CPSm"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["CPSm"]['INUNDABILI'] = ['ocacionales']
-clases["CPSm"]['DURACION'] = '<15'
-clases["CPSm"]['FRAGMENTOS'] = '<3'
-clases["CPSm"]['PROFUNDIDA'] = '>50'
-clases["CPSm"]['FERTILIDAD'] = '>3.6'
+#clases["CPSm"]['CLASE_DE_C'] = ['8 , 9']
+#clases["CPSm"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["CPSm"]['Pendiente'] = "<25"
+clases["CPSm"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CPSm"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["CPSm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["CPSm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["CPSm"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CPSm"]['Profundidad efectiva (cm)'] = '>50'
+clases["CPSm"]['Fertilidad'] = '>3.6'
 clases["CPSm"]['ACIDEZ_POR'] = '<4'
-clases["CPSm"]['SALINIDAD'] = '<15'
-clases["CPSm"]['SODICIDAD'] = '<30'
+#clases["CPSm"]['SALINIDAD'] = '<15'
+#clases["CPSm"]['SODICIDAD'] = '<30'
 
 clases["CPSf"] = dict()
-clases["CPSf"]['CLASE_DE_C'] = ['12 , 13']
-clases["CPSf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["CPSf"]['PENDIENTE'] = "<25"
-clases["CPSf"]['EROSION'] = ["no hay"]
-clases["CPSf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["CPSf"]['INUNDABILI'] = ['ocacionales']
-clases["CPSf"]['DURACION'] = '<15'
-clases["CPSf"]['FRAGMENTOS'] = '<3'
-clases["CPSf"]['PROFUNDIDA'] = '>50'
-clases["CPSf"]['FERTILIDAD'] = '>3.6'
+#clases["CPSf"]['CLASE_DE_C'] = ['12 , 13']
+#clases["CPSf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["CPSf"]['Pendiente'] = "<25"
+clases["CPSf"]['Erosion\n(Grado)'] = ["no hay"]
+clases["CPSf"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["CPSf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["CPSf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["CPSf"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["CPSf"]['Profundidad efectiva (cm)'] = '>50'
+clases["CPSf"]['Fertilidad'] = '>3.6'
 clases["CPSf"]['ACIDEZ_POR'] = '<4'
-clases["CPSf"]['SALINIDAD'] = '<15'
-clases["CPSf"]['SODICIDAD'] = '<30'
+#clases["CPSf"]['SALINIDAD'] = '<15'
+#clases["CPSf"]['SODICIDAD'] = '<30'
 
 clases["PINc"] = dict()
-clases["PINc"]['CLASE_DE_C'] = ['4']
-clases["PINc"]['CLASE_DE_H'] = ['bimodal']
-clases["PINc"]['PENDIENTE'] = "<7"
-clases["PINc"]['EROSION'] = ["no hay"]
-clases["PINc"]['DRENAJE_NA'] = ['bueno , moderado']
-clases["PINc"]['INUNDABILI'] = ['raras']
-clases["PINc"]['DURACION'] = '<15'
-clases["PINc"]['FRAGMENTOS'] = '<3'
-clases["PINc"]['PROFUNDIDA'] = '<50'
-clases["PINc"]['FERTILIDAD'] = '>5.2'
+#clases["PINc"]['CLASE_DE_C'] = ['4']
+#clases["PINc"]['CLASE_DE_H'] = ['bimodal']
+clases["PINc"]['Pendiente'] = "<7"
+clases["PINc"]['Erosion\n(Grado)'] = ["no hay"]
+clases["PINc"]['Drenaje natural'] = ['bueno , moderado']
+clases["PINc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["PINc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["PINc"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["PINc"]['Profundidad efectiva (cm)'] = '<50'
+clases["PINc"]['Fertilidad'] = '>5.2'
 clases["PINc"]['ACIDEZ_POR'] = '<4'
-clases["PINc"]['SALINIDAD'] = '<15'
-clases["PINc"]['SODICIDAD'] = '<30'
+#clases["PINc"]['SALINIDAD'] = '<15'
+#clases["PINc"]['SODICIDAD'] = '<30'
 
 
 clases["PINm"] = dict()
-clases["PINm"]['CLASE_DE_C'] = ['9']
-clases["PINm"]['CLASE_DE_H'] = ['bimodal']
-clases["PINm"]['PENDIENTE'] = "<7"
-clases["PINm"]['EROSION'] = ["no hay"]
-clases["PINm"]['DRENAJE_NA'] = ['bueno , moderado']
-clases["PINm"]['INUNDABILI'] = ['raras']
-clases["PINm"]['DURACION'] = '<15'
-clases["PINm"]['FRAGMENTOS'] = '<3'
-clases["PINm"]['PROFUNDIDA'] = '<50'
-clases["PINm"]['FERTILIDAD'] = '>5.2'
+#clases["PINm"]['CLASE_DE_C'] = ['9']
+#clases["PINm"]['CLASE_DE_H'] = ['bimodal']
+clases["PINm"]['Pendiente'] = "<7"
+clases["PINm"]['Erosion\n(Grado)'] = ["no hay"]
+clases["PINm"]['Drenaje natural'] = ['bueno , moderado']
+clases["PINm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["PINm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["PINm"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["PINm"]['Profundidad efectiva (cm)'] = '<50'
+clases["PINm"]['Fertilidad'] = '>5.2'
 clases["PINm"]['ACIDEZ_POR'] = '<4'
-clases["PINm"]['SALINIDAD'] = '<15'
-clases["PINm"]['SODICIDAD'] = '<30'
+#clases["PINm"]['SALINIDAD'] = '<15'
+#clases["PINm"]['SODICIDAD'] = '<30'
 
 
 clases["PINf"] = dict()
-clases["PINf"]['CLASE_DE_C'] = ['13']
-clases["PINf"]['CLASE_DE_H'] = ['bimodal']
-clases["PINf"]['PENDIENTE'] = "<7"
-clases["PINf"]['EROSION'] = ["no hay"]
-clases["PINf"]['DRENAJE_NA'] = ['bueno , moderado']
-clases["PINf"]['INUNDABILI'] = ['raras']
-clases["PINf"]['DURACION'] = '<15'
-clases["PINf"]['FRAGMENTOS'] = '<3'
-clases["PINf"]['PROFUNDIDA'] = '<50'
-clases["PINf"]['FERTILIDAD'] = '>5.2'
+#clases["PINf"]['CLASE_DE_C'] = ['13']
+#clases["PINf"]['CLASE_DE_H'] = ['bimodal']
+clases["PINf"]['Pendiente'] = "<7"
+clases["PINf"]['Erosion\n(Grado)'] = ["no hay"]
+clases["PINf"]['Drenaje natural'] = ['bueno , moderado']
+clases["PINf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["PINf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["PINf"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["PINf"]['Profundidad efectiva (cm)'] = '<50'
+clases["PINf"]['Fertilidad'] = '>5.2'
 clases["PINf"]['ACIDEZ_POR'] = '<4'
-clases["PINf"]['SALINIDAD'] = '<15'
-clases["PINf"]['SODICIDAD'] = '<30'
+#clases["PINf"]['SALINIDAD'] = '<15'
+#clases["PINf"]['SODICIDAD'] = '<30'
 
 clases["PSIc"] = dict()
-clases["PSIc"]['CLASE_DE_C'] = ['3 , 4 , 5']
-clases["PSIc"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PSIc"]['PENDIENTE'] = "<12"
-clases["PSIc"]['EROSION'] = ["ligera"]
-clases["PSIc"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["PSIc"]['INUNDABILI'] = ['ocasionales']
-clases["PSIc"]['DURACION'] = '<35'
-clases["PSIc"]['FRAGMENTOS'] = '<15'
-clases["PSIc"]['PROFUNDIDA'] = '<25'
-clases["PSIc"]['FERTILIDAD'] = '>3.6'
+#clases["PSIc"]['CLASE_DE_C'] = ['3 , 4 , 5']
+#clases["PSIc"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PSIc"]['Pendiente'] = "<12"
+clases["PSIc"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PSIc"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["PSIc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["PSIc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["PSIc"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["PSIc"]['Profundidad efectiva (cm)'] = '<25'
+clases["PSIc"]['Fertilidad'] = '>3.6'
 clases["PSIc"]['ACIDEZ_POR'] = '<8'
-clases["PSIc"]['SALINIDAD'] = '<15'
-clases["PSIc"]['SODICIDAD'] = '<30'
+#clases["PSIc"]['SALINIDAD'] = '<15'
+#clases["PSIc"]['SODICIDAD'] = '<30'
 
 
 clases["PSIc"] = dict()
-clases["PSIc"]['CLASE_DE_C'] = ['3 , 4 , 5']
-clases["PSIc"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PSIc"]['PENDIENTE'] = "<12"
-clases["PSIc"]['EROSION'] = ["ligera"]
-clases["PSIc"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["PSIc"]['INUNDABILI'] = ['ocasionales']
-clases["PSIc"]['DURACION'] = '<35'
-clases["PSIc"]['FRAGMENTOS'] = '<15'
-clases["PSIc"]['PROFUNDIDA'] = '<25'
-clases["PSIc"]['FERTILIDAD'] = '>3.6'
+#clases["PSIc"]['CLASE_DE_C'] = ['3 , 4 , 5']
+#clases["PSIc"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PSIc"]['Pendiente'] = "<12"
+clases["PSIc"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PSIc"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["PSIc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["PSIc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["PSIc"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["PSIc"]['Profundidad efectiva (cm)'] = '<25'
+clases["PSIc"]['Fertilidad'] = '>3.6'
 clases["PSIc"]['ACIDEZ_POR'] = '<8'
-clases["PSIc"]['SALINIDAD'] = '<15'
-clases["PSIc"]['SODICIDAD'] = '<30'
+#clases["PSIc"]['SALINIDAD'] = '<15'
+#clases["PSIc"]['SODICIDAD'] = '<30'
 
 clases["PSIm"] = dict()
-clases["PSIm"]['CLASE_DE_C'] = ['8 , 9']
-clases["PSIm"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PSIm"]['PENDIENTE'] = "<12"
-clases["PSIm"]['EROSION'] = ["ligera"]
-clases["PSIm"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["PSIm"]['INUNDABILI'] = ['ocasionales']
-clases["PSIm"]['DURACION'] = '<35'
-clases["PSIm"]['FRAGMENTOS'] = '<15'
-clases["PSIm"]['PROFUNDIDA'] = '<25'
-clases["PSIm"]['FERTILIDAD'] = '>3.6'
+#clases["PSIm"]['CLASE_DE_C'] = ['8 , 9']
+#clases["PSIm"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PSIm"]['Pendiente'] = "<12"
+clases["PSIm"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PSIm"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["PSIm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["PSIm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["PSIm"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["PSIm"]['Profundidad efectiva (cm)'] = '<25'
+clases["PSIm"]['Fertilidad'] = '>3.6'
 clases["PSIm"]['ACIDEZ_POR'] = '<8'
-clases["PSIm"]['SALINIDAD'] = '<15'
-clases["PSIm"]['SODICIDAD'] = '<30'
+#clases["PSIm"]['SALINIDAD'] = '<15'
+#clases["PSIm"]['SODICIDAD'] = '<30'
 
 
 clases["PSIf"] = dict()
-clases["PSIf"]['CLASE_DE_C'] = ['12 , 13']
-clases["PSIf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PSIf"]['PENDIENTE'] = "<12"
-clases["PSIf"]['EROSION'] = ["ligera"]
-clases["PSIf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["PSIf"]['INUNDABILI'] = ['ocasionales']
-clases["PSIf"]['DURACION'] = '<35'
-clases["PSIf"]['FRAGMENTOS'] = '<15'
-clases["PSIf"]['PROFUNDIDA'] = '<25'
-clases["PSIf"]['FERTILIDAD'] = '>3.6'
+#clases["PSIf"]['CLASE_DE_C'] = ['12 , 13']
+#clases["PSIf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PSIf"]['Pendiente'] = "<12"
+clases["PSIf"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PSIf"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["PSIf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["PSIf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["PSIf"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["PSIf"]['Profundidad efectiva (cm)'] = '<25'
+clases["PSIf"]['Fertilidad'] = '>3.6'
 clases["PSIf"]['ACIDEZ_POR'] = '<8'
-clases["PSIf"]['SALINIDAD'] = '<15'
-clases["PSIf"]['SODICIDAD'] = '<30'
+#clases["PSIf"]['SALINIDAD'] = '<15'
+#clases["PSIf"]['SODICIDAD'] = '<30'
 
 
 clases["PSIf"] = dict()
-clases["PSIf"]['CLASE_DE_C'] = ['12 , 13']
-clases["PSIf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PSIf"]['PENDIENTE'] = "<12"
-clases["PSIf"]['EROSION'] = ["ligera"]
-clases["PSIf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["PSIf"]['INUNDABILI'] = ['ocasionales']
-clases["PSIf"]['DURACION'] = '<35'
-clases["PSIf"]['FRAGMENTOS'] = '<15'
-clases["PSIf"]['PROFUNDIDA'] = '<25'
-clases["PSIf"]['FERTILIDAD'] = '>3.6'
+#clases["PSIf"]['CLASE_DE_C'] = ['12 , 13']
+#clases["PSIf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PSIf"]['Pendiente'] = "<12"
+clases["PSIf"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PSIf"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["PSIf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["PSIf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["PSIf"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["PSIf"]['Profundidad efectiva (cm)'] = '<25'
+clases["PSIf"]['Fertilidad'] = '>3.6'
 clases["PSIf"]['ACIDEZ_POR'] = '<8'
-clases["PSIf"]['SALINIDAD'] = '<15'
-clases["PSIf"]['SODICIDAD'] = '<30'
+#clases["PSIf"]['SALINIDAD'] = '<15'
+#clases["PSIf"]['SODICIDAD'] = '<30'
 
 
 clases["PEXc"] = dict()
-clases["PEXc"]['CLASE_DE_C'] = ['2 , 3 , 4 , 5']
-clases["PEXc"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PEXc"]['PENDIENTE'] = "<25"
-clases["PEXc"]['EROSION'] = ["ligera"]
-clases["PEXc"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["PEXc"]['INUNDABILI'] = ['frecuentes']
-clases["PEXc"]['DURACION'] = '<60'
-clases["PEXc"]['FRAGMENTOS'] = '<50'
-clases["PEXc"]['PROFUNDIDA'] = '>10'
-clases["PEXc"]['FERTILIDAD'] = '>0.5'
+#clases["PEXc"]['CLASE_DE_C'] = ['2 , 3 , 4 , 5']
+#clases["PEXc"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PEXc"]['Pendiente'] = "<25"
+clases["PEXc"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PEXc"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["PEXc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["PEXc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["PEXc"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["PEXc"]['Profundidad efectiva (cm)'] = '>10'
+clases["PEXc"]['Fertilidad'] = '>0.5'
 clases["PEXc"]['ACIDEZ_POR'] = '<8'
-clases["PEXc"]['SALINIDAD'] = '<15'
-clases["PEXc"]['SODICIDAD'] = '<60'
+#clases["PEXc"]['SALINIDAD'] = '<15'
+#clases["PEXc"]['SODICIDAD'] = '<60'
 
 
 clases["PEXm"] = dict()
-clases["PEXm"]['CLASE_DE_C'] = ['7 , 8 , 9 , 10']
-clases["PEXm"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PEXm"]['PENDIENTE'] = "<25"
-clases["PEXm"]['EROSION'] = ["ligera"]
-clases["PEXm"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["PEXm"]['INUNDABILI'] = ['frecuentes']
-clases["PEXm"]['DURACION'] = '<60'
-clases["PEXm"]['FRAGMENTOS'] = '<50'
-clases["PEXm"]['PROFUNDIDA'] = '>10'
-clases["PEXm"]['FERTILIDAD'] = '>0.5'
+#clases["PEXm"]['CLASE_DE_C'] = ['7 , 8 , 9 , 10']
+#clases["PEXm"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PEXm"]['Pendiente'] = "<25"
+clases["PEXm"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PEXm"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["PEXm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["PEXm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["PEXm"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["PEXm"]['Profundidad efectiva (cm)'] = '>10'
+clases["PEXm"]['Fertilidad'] = '>0.5'
 clases["PEXm"]['ACIDEZ_POR'] = '<8'
-clases["PEXm"]['SALINIDAD'] = '<15'
-clases["PEXm"]['SODICIDAD'] = '<60'
+#clases["PEXm"]['SALINIDAD'] = '<15'
+#clases["PEXm"]['SODICIDAD'] = '<60'
 
 
 clases["PEXf"] = dict()
-clases["PEXf"]['CLASE_DE_C'] = ['12 , 13 , 14']
-clases["PEXf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PEXf"]['PENDIENTE'] = "<25"
-clases["PEXf"]['EROSION'] = ["ligera"]
-clases["PEXf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["PEXf"]['INUNDABILI'] = ['frecuentes']
-clases["PEXf"]['DURACION'] = '<60'
-clases["PEXf"]['FRAGMENTOS'] = '<50'
-clases["PEXf"]['PROFUNDIDA'] = '>10'
-clases["PEXf"]['FERTILIDAD'] = '>0.5'
+#clases["PEXf"]['CLASE_DE_C'] = ['12 , 13 , 14']
+#clases["PEXf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PEXf"]['Pendiente'] = "<25"
+clases["PEXf"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PEXf"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["PEXf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["PEXf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["PEXf"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["PEXf"]['Profundidad efectiva (cm)'] = '>10'
+clases["PEXf"]['Fertilidad'] = '>0.5'
 clases["PEXf"]['ACIDEZ_POR'] = '<8'
-clases["PEXf"]['SALINIDAD'] = '<15'
-clases["PEXf"]['SODICIDAD'] = '<60'
+#clases["PEXf"]['SALINIDAD'] = '<15'
+#clases["PEXf"]['SODICIDAD'] = '<60'
 
 clases["PEXmf"] = dict()
-clases["PEXmf"]['CLASE_DE_C'] = ['16 , 17']
-clases["PEXmf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["PEXmf"]['PENDIENTE'] = "<25"
-clases["PEXmf"]['EROSION'] = ["ligera"]
-clases["PEXmf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["PEXmf"]['INUNDABILI'] = ['frecuentes']
-clases["PEXmf"]['DURACION'] = '<60'
-clases["PEXmf"]['FRAGMENTOS'] = '<50'
-clases["PEXmf"]['PROFUNDIDA'] = '>10'
-clases["PEXmf"]['FERTILIDAD'] = '>0.5'
+#clases["PEXmf"]['CLASE_DE_C'] = ['16 , 17']
+#clases["PEXmf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["PEXmf"]['Pendiente'] = "<25"
+clases["PEXmf"]['Erosion\n(Grado)'] = ["ligera"]
+clases["PEXmf"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["PEXmf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["PEXmf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["PEXmf"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["PEXmf"]['Profundidad efectiva (cm)'] = '>10'
+clases["PEXmf"]['Fertilidad'] = '>0.5'
 clases["PEXmf"]['ACIDEZ_POR'] = '<8'
-clases["PEXmf"]['SALINIDAD'] = '<15'
-clases["PEXmf"]['SODICIDAD'] = '<60'
+#clases["PEXmf"]['SALINIDAD'] = '<15'
+#clases["PEXmf"]['SODICIDAD'] = '<60'
 
 clases["AGSt"] = dict()
-clases["AGSt"]['CLASE_DE_C'] = ['3 , 4 , 8 , 9 , 13 , 14 , 15']
-clases["AGSt"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["AGSt"]['PENDIENTE'] = "<25"
-clases["AGSt"]['EROSION'] = ["no hay"]
-clases["AGSt"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["AGSt"]['INUNDABILI'] = ['ocacionales']
-clases["AGSt"]['DURACION'] = '<15'
-clases["AGSt"]['FRAGMENTOS'] = '<3'
-clases["AGSt"]['PROFUNDIDA'] = '>25'
-clases["AGSt"]['FERTILIDAD'] = '>0.5'
+#clases["AGSt"]['CLASE_DE_C'] = ['3 , 4 , 8 , 9 , 13 , 14 , 15']
+#clases["AGSt"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["AGSt"]['Pendiente'] = "<25"
+clases["AGSt"]['Erosion\n(Grado)'] = ["no hay"]
+clases["AGSt"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["AGSt"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["AGSt"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["AGSt"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["AGSt"]['Profundidad efectiva (cm)'] = '>25'
+clases["AGSt"]['Fertilidad'] = '>0.5'
 clases["AGSt"]['ACIDEZ_POR'] = '<8'
-clases["AGSt"]['SALINIDAD'] = '<15'
-clases["AGSt"]['SODICIDAD'] = '<60'
+#clases["AGSt"]['SALINIDAD'] = '<15'
+#clases["AGSt"]['SODICIDAD'] = '<60'
 
 clases["AGSp"] = dict()
-clases["AGSp"]['CLASE_DE_C'] = ['3 , 4 , 5 , 6 , 8 , 9 , 13 , 14 , 15']
-clases["AGSp"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["AGSp"]['PENDIENTE'] = "<75"
-clases["AGSp"]['EROSION'] = ["ligera"]
-clases["AGSp"]['DRENAJE_NA'] = ['Excesivo , bueno , moderado']
-clases["AGSp"]['INUNDABILI'] = ['raras']
-clases["AGSp"]['DURACION'] = '<15'
-clases["AGSp"]['FRAGMENTOS'] = '<3'
-clases["AGSp"]['PROFUNDIDA'] = '>25'
-clases["AGSp"]['FERTILIDAD'] = '>0.5'
+#clases["AGSp"]['CLASE_DE_C'] = ['3 , 4 , 5 , 6 , 8 , 9 , 13 , 14 , 15']
+#clases["AGSp"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["AGSp"]['Pendiente'] = "<75"
+clases["AGSp"]['Erosion\n(Grado)'] = ["ligera"]
+clases["AGSp"]['Drenaje natural'] = ['Excesivo , bueno , moderado']
+clases["AGSp"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["AGSp"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["AGSp"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["AGSp"]['Profundidad efectiva (cm)'] = '>25'
+clases["AGSp"]['Fertilidad'] = '>0.5'
 clases["AGSp"]['ACIDEZ_POR'] = '<8'
-clases["AGSp"]['SALINIDAD'] = '<15'
-clases["AGSp"]['SODICIDAD'] = '<60'
+#clases["AGSp"]['SALINIDAD'] = '<15'
+#clases["AGSp"]['SODICIDAD'] = '<60'
 
 clases["ASPt"] = dict()
-clases["ASPt"]['CLASE_DE_C'] = ['3 , 4 , 8 , 9 , 13 , 14 , 18']
-clases["ASPt"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["ASPt"]['PENDIENTE'] = "<25"
-clases["ASPt"]['EROSION'] = ["moderada"]
-clases["ASPt"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto']
-clases["ASPt"]['INUNDABILI'] = ['ocasionales']
-clases["ASPt"]['DURACION'] = '<15'
-clases["ASPt"]['FRAGMENTOS'] = '<3'
-clases["ASPt"]['PROFUNDIDA'] = '>25'
-clases["ASPt"]['FERTILIDAD'] = '>0.5'
+#clases["ASPt"]['CLASE_DE_C'] = ['3 , 4 , 8 , 9 , 13 , 14 , 18']
+#clases["ASPt"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["ASPt"]['Pendiente'] = "<25"
+clases["ASPt"]['Erosion\n(Grado)'] = ["moderada"]
+clases["ASPt"]['Drenaje natural'] = ['bueno , moderado , imperfecto']
+clases["ASPt"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocasionales']
+clases["ASPt"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<15'
+clases["ASPt"]['Fragmentos roca (% por Vol.) '] = '<3'
+clases["ASPt"]['Profundidad efectiva (cm)'] = '>25'
+clases["ASPt"]['Fertilidad'] = '>0.5'
 clases["ASPt"]['ACIDEZ_POR'] = '<8'
-clases["ASPt"]['SALINIDAD'] = '<15'
-clases["ASPt"]['SODICIDAD'] = '<60'
+#clases["ASPt"]['SALINIDAD'] = '<15'
+#clases["ASPt"]['SODICIDAD'] = '<60'
 
 clases["ASPp"] = dict()
-clases["ASPp"]['CLASE_DE_C'] = ['3 , 4 , 5 , 8 , 9 , 10 , 13 , 14']
-clases["ASPp"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["ASPp"]['PENDIENTE'] = "<50"
-clases["ASPp"]['EROSION'] = ["moderada"]
-clases["ASPp"]['DRENAJE_NA'] = ['bueno , moderado']
-clases["ASPp"]['INUNDABILI'] = ['raras']
-clases["ASPp"]['DURACION'] = '<35'
-clases["ASPp"]['FRAGMENTOS'] = '<15'
-clases["ASPp"]['PROFUNDIDA'] = '>50'
-clases["ASPp"]['FERTILIDAD'] = '>0.5'
+#clases["ASPp"]['CLASE_DE_C'] = ['3 , 4 , 5 , 8 , 9 , 10 , 13 , 14']
+#clases["ASPp"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["ASPp"]['Pendiente'] = "<50"
+clases["ASPp"]['Erosion\n(Grado)'] = ["moderada"]
+clases["ASPp"]['Drenaje natural'] = ['bueno , moderado']
+clases["ASPp"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['raras']
+clases["ASPp"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["ASPp"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["ASPp"]['Profundidad efectiva (cm)'] = '>50'
+clases["ASPp"]['Fertilidad'] = '>0.5'
 clases["ASPp"]['ACIDEZ_POR'] = '<8'
-clases["ASPp"]['SALINIDAD'] = '<15'
-clases["ASPp"]['SODICIDAD'] = '<60'
+#clases["ASPp"]['SALINIDAD'] = '<15'
+#clases["ASPp"]['SODICIDAD'] = '<60'
 
 
 clases["SPA"] = dict()
-clases["ASPp"]['CLASE_DE_C'] = ['2 , 3 , 4 , 5 , 7 , 8 , 9 , 10 , 12 , 13 , 15 , 17 , 18']
-clases["ASPp"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["ASPp"]['PENDIENTE'] = "<50"
-clases["ASPp"]['EROSION'] = ["moderada"]
-clases["ASPp"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["ASPp"]['INUNDABILI'] = ['frecuentes']
-clases["ASPp"]['DURACION'] = '<60'
-clases["ASPp"]['FRAGMENTOS'] = '<50'
-clases["ASPp"]['PROFUNDIDA'] = '>25'
-clases["ASPp"]['FERTILIDAD'] = '>0.5'
-clases["ASPp"]['ACIDEZ_POR'] = '<16'
-clases["ASPp"]['SALINIDAD'] = '<15'
-clases["ASPp"]['SODICIDAD'] = '<90'
+#clases["ASPp"]['CLASE_DE_C'] = ['2 , 3 , 4 , 5 , 7 , 8 , 9 , 10 , 12 , 13 , 15 , 17 , 18']
+#clases["ASPp"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["SPA"]['Pendiente'] = "<50"
+clases["SPA"]['Erosion\n(Grado)'] = ["moderada"]
+clases["SPA"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["SPA"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["SPA"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["SPA"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["SPA"]['Profundidad efectiva (cm)'] = '>25'
+clases["SPA"]['Fertilidad'] = '>0.5'
+clases["SPA"]['ACIDEZ_POR'] = '<16'
+#clases["ASPp"]['SALINIDAD'] = '<15'
+#clases["ASPp"]['SODICIDAD'] = '<90'
 
 
 clases["FPDc"] = dict()
-clases["FPDc"]['CLASE_DE_C'] = ['3 , 4 , 5 , 6']
-clases["FPDc"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPDc"]['PENDIENTE'] = "<25"
-clases["FPDc"]['EROSION'] = ["ligera"]
-clases["FPDc"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["FPDc"]['INUNDABILI'] = ['ocacionales']
-clases["FPDc"]['DURACION'] = '<35'
-clases["FPDc"]['FRAGMENTOS'] = '<15'
-clases["FPDc"]['PROFUNDIDA'] = '>50'
-clases["FPDc"]['FERTILIDAD'] = '>1.0'
+#clases["FPDc"]['CLASE_DE_C'] = ['3 , 4 , 5 , 6']
+#clases["FPDc"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPDc"]['Pendiente'] = "<25"
+clases["FPDc"]['Erosion\n(Grado)'] = ["ligera"]
+clases["FPDc"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["FPDc"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["FPDc"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["FPDc"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["FPDc"]['Profundidad efectiva (cm)'] = '>50'
+clases["FPDc"]['Fertilidad'] = '>1.0'
 clases["FPDc"]['ACIDEZ_POR'] = '<4'
-clases["FPDc"]['SALINIDAD'] = '<15'
-clases["FPDc"]['SODICIDAD'] = '<30'
+#clases["FPDc"]['SALINIDAD'] = '<15'
+#clases["FPDc"]['SODICIDAD'] = '<30'
 
 clases["FPDm"] = dict()
-clases["FPDm"]['CLASE_DE_C'] = ['8 , 9 , 10']
-clases["FPDm"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPDm"]['PENDIENTE'] = "<25"
-clases["FPDm"]['EROSION'] = ["ligera"]
-clases["FPDm"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["FPDm"]['INUNDABILI'] = ['ocacionales']
-clases["FPDm"]['DURACION'] = '<35'
-clases["FPDm"]['FRAGMENTOS'] = '<15'
-clases["FPDm"]['PROFUNDIDA'] = '>50'
-clases["FPDm"]['FERTILIDAD'] = '>1.0'
+#clases["FPDm"]['CLASE_DE_C'] = ['8 , 9 , 10']
+#clases["FPDm"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPDm"]['Pendiente'] = "<25"
+clases["FPDm"]['Erosion\n(Grado)'] = ["ligera"]
+clases["FPDm"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["FPDm"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["FPDm"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["FPDm"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["FPDm"]['Profundidad efectiva (cm)'] = '>50'
+clases["FPDm"]['Fertilidad'] = '>1.0'
 clases["FPDm"]['ACIDEZ_POR'] = '<4'
-clases["FPDm"]['SALINIDAD'] = '<15'
-clases["FPDm"]['SODICIDAD'] = '<30'
+#clases["FPDm"]['SALINIDAD'] = '<15'
+#clases["FPDm"]['SODICIDAD'] = '<30'
 
 clases["FPDf"] = dict()
-clases["FPDf"]['CLASE_DE_C'] = ['13 , 14 , 15 , 16']
-clases["FPDf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPDf"]['PENDIENTE'] = "<25"
-clases["FPDf"]['EROSION'] = ["ligera"]
-clases["FPDf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["FPDf"]['INUNDABILI'] = ['ocacionales']
-clases["FPDf"]['DURACION'] = '<35'
-clases["FPDf"]['FRAGMENTOS'] = '<15'
-clases["FPDf"]['PROFUNDIDA'] = '>50'
-clases["FPDf"]['FERTILIDAD'] = '>1.0'
+#clases["FPDf"]['CLASE_DE_C'] = ['13 , 14 , 15 , 16']
+#clases["FPDf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPDf"]['Pendiente'] = "<25"
+clases["FPDf"]['Erosion\n(Grado)'] = ["ligera"]
+clases["FPDf"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["FPDf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["FPDf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["FPDf"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["FPDf"]['Profundidad efectiva (cm)'] = '>50'
+clases["FPDf"]['Fertilidad'] = '>1.0'
 clases["FPDf"]['ACIDEZ_POR'] = '<4'
-clases["FPDf"]['SALINIDAD'] = '<15'
-clases["FPDf"]['SODICIDAD'] = '<30'
+#clases["FPDf"]['SALINIDAD'] = '<15'
+#clases["FPDf"]['SODICIDAD'] = '<30'
 
 clases["FPDmf"] = dict()
-clases["FPDmf"]['CLASE_DE_C'] = ['17 , 18']
-clases["FPDmf"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPDmf"]['PENDIENTE'] = "<12"
-clases["FPDmf"]['EROSION'] = ["ligera"]
-clases["FPDmf"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["FPDmf"]['INUNDABILI'] = ['ocacionales']
-clases["FPDmf"]['DURACION'] = '<35'
-clases["FPDmf"]['FRAGMENTOS'] = '<15'
-clases["FPDmf"]['PROFUNDIDA'] = '>50'
-clases["FPDmf"]['FERTILIDAD'] = '>1.0'
+#clases["FPDmf"]['CLASE_DE_C'] = ['17 , 18']
+#clases["FPDmf"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPDmf"]['Pendiente'] = "<12"
+clases["FPDmf"]['Erosion\n(Grado)'] = ["ligera"]
+clases["FPDmf"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["FPDmf"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['ocacionales']
+clases["FPDmf"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<35'
+clases["FPDmf"]['Fragmentos roca (% por Vol.) '] = '<15'
+clases["FPDmf"]['Profundidad efectiva (cm)'] = '>50'
+clases["FPDmf"]['Fertilidad'] = '>1.0'
 clases["FPDmf"]['ACIDEZ_POR'] = '<4'
-clases["FPDmf"]['SALINIDAD'] = '<15'
-clases["FPDmf"]['SODICIDAD'] = '<30'
+#clases["FPDmf"]['SALINIDAD'] = '<15'
+#clases["FPDmf"]['SODICIDAD'] = '<30'
 
 
 clases["FPP"] = dict()
-clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17']
-clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPP"]['PENDIENTE'] = "<50"
-clases["FPP"]['EROSION'] = ["moderada"]
-clases["FPP"]['DRENAJE_NA'] = ['bueno , moderado , imperfecto , pobre']
-clases["FPP"]['INUNDABILI'] = ['frecuentes']
-clases["FPP"]['DURACION'] = '<60'
-clases["FPP"]['FRAGMENTOS'] = '<50'
-clases["FPP"]['PROFUNDIDA'] = '>10'
-clases["FPP"]['FERTILIDAD'] = '>0.5'
+#clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17']
+#clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPP"]['Pendiente'] = "<50"
+clases["FPP"]['Erosion\n(Grado)'] = ["moderada"]
+clases["FPP"]['Drenaje natural'] = ['bueno , moderado , imperfecto , pobre']
+clases["FPP"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["FPP"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["FPP"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["FPP"]['Profundidad efectiva (cm)'] = '>10'
+clases["FPP"]['Fertilidad'] = '>0.5'
 clases["FPP"]['ACIDEZ_POR'] = '<16'
-clases["FPP"]['SALINIDAD'] = '<15'
-clases["FPP"]['SODICIDAD'] = '<90'
+#clases["FPP"]['SALINIDAD'] = '<15'
+#clases["FPP"]['SODICIDAD'] = '<90'
 
 
 clases["FPP"] = dict()
-clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19']
-clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPP"]['PENDIENTE'] = "<100"
-clases["FPP"]['EROSION'] = ["severa"]
-clases["FPP"]['DRENAJE_NA'] = ['excesivo , bueno , moderado , imperfecto , pobre']
-clases["FPP"]['INUNDABILI'] = ['frecuentes']
-clases["FPP"]['DURACION'] = '<60'
-clases["FPP"]['FRAGMENTOS'] = '<50'
-clases["FPP"]['PROFUNDIDA'] = '>10'
-clases["FPP"]['FERTILIDAD'] = '>0.5'
+#clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19']
+#clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPP"]['Pendiente'] = "<100"
+clases["FPP"]['Erosion\n(Grado)'] = ["severa"]
+clases["FPP"]['Drenaje natural'] = ['excesivo , bueno , moderado , imperfecto , pobre']
+clases["FPP"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["FPP"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["FPP"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["FPP"]['Profundidad efectiva (cm)'] = '>10'
+clases["FPP"]['Fertilidad'] = '>0.5'
 clases["FPP"]['ACIDEZ_POR'] = '<16'
-clases["FPP"]['SALINIDAD'] = '<15'
-clases["FPP"]['SODICIDAD'] = '<90'
+#clases["FPP"]['SALINIDAD'] = '<15'
+#clases["FPP"]['SODICIDAD'] = '<90'
 
 clases["FPP"] = dict()
-clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21']
-clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPP"]['PENDIENTE'] = "<100"
-clases["FPP"]['EROSION'] = ["severa"]
-clases["FPP"]['DRENAJE_NA'] = ['excesivo , bueno , moderado , imperfecto , pobre']
-clases["FPP"]['INUNDABILI'] = ['frecuentes']
-clases["FPP"]['DURACION'] = '<60'
-clases["FPP"]['FRAGMENTOS'] = '<50'
-clases["FPP"]['PROFUNDIDA'] = '>10'
+#clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21']
+#clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPP"]['Pendiente'] = "<100"
+clases["FPP"]['Erosion\n(Grado)'] = ["severa"]
+clases["FPP"]['Drenaje natural'] = ['excesivo , bueno , moderado , imperfecto , pobre']
+clases["FPP"]['Inundaciones/Encharcamientos\n(Frecuencia)'] = ['frecuentes']
+clases["FPP"]['Inundaciones/Encharcamientos\n(Duracion)'] = '<60'
+clases["FPP"]['Fragmentos roca (% por Vol.) '] = '<50'
+clases["FPP"]['Profundidad efectiva (cm)'] = '>10'
 clases["FPP"]['ACIDEZ_POR'] = '<8'
-clases["FPP"]['SALINIDAD'] = '>15'
-clases["FPP"]['SODICIDAD'] = '<90'
+#clases["FPP"]['SALINIDAD'] = '>15'
+#clases["FPP"]['SODICIDAD'] = '<90'
 
 clases["FPP"] = dict()
-clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21']
-clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
-clases["FPP"]['PENDIENTE'] = "<100"
-clases["FPP"]['DRENAJE_NA'] = ['pantanoso']
+#clases["FPP"]['CLASE_DE_C'] = ['1 , 2 , 3 , 4 , 5 , 6 , 7 , 8 , 9 , 10 , 11 , 12 , 13 , 14 , 15 , 16 , 17 , 18 , 19 , 20 , 21']
+#clases["FPP"]['CLASE_DE_H'] = ['bimodal , monomodal']
+clases["FPP"]['Pendiente'] = "<100"
+clases["FPP"]['Drenaje natural'] = ['pantanoso']
 
 
 
@@ -727,11 +727,11 @@ def function_para_clasificar(fila_del_excel):
                 valor_de_atributo = conseguir_porcentaje_de_sodio_de_sales_y_sodio(fila_del_excel["Sales y sodio"])
             else:
                 valor_de_atributo = fila_del_excel[atributo]
-            if atributo == 'PENDIENTE':
+            if atributo == 'Pendiente':
                 valor_de_atributo = mapear_pendiente_a_rango(valor_de_atributo)
-            if atributo == 'CLASE_DE_H':
-                valor_de_atributo = mapear_distribucion_lluvias_a_monomodal_o_bimodal(valor_de_atributo)
-            if atributo == 'FERTILIDAD':
+            #if atributo == 'CLASE_DE_H':
+                #valor_de_atributo = mapear_distribucion_lluvias_a_monomodal_o_bimodal(valor_de_atributo)
+            if atributo == 'Fertilidad':
                 valor_de_atributo = mapear_fertilidad_a_rango(valor_de_atributo)
             ## El atributo es una lista, y hay que ver si este previo esta en la es
             if type(regla) is list:
@@ -739,7 +739,7 @@ def function_para_clasificar(fila_del_excel):
                 if valor_de_atributo.lower() not in regla:
                     razones_por_que_no.append(atributo)
                     califica_como_clase = False
-            ## El atributo es rango con un maximo, como ['PENDIENTE'] = "<7"
+            ## El atributo es rango con un maximo, como ['Pendiente'] = "<7"
             if "<" in regla:
                 maximo = regla
                 if "," in maximo:
@@ -749,7 +749,7 @@ def function_para_clasificar(fila_del_excel):
                 if valor_de_atributo['maximo'] > maximo:
                     razones_por_que_no.append(atributo)
                     califica_como_clase = False
-            ## El atributo es rango con un minimo, como ['PENDIENTE'] = "<7"
+            ## El atributo es rango con un minimo, como ['Pendiente'] = "<7"
             if ">" in regla:
                 minimo = regla
                 if "," in minimo:
@@ -761,27 +761,30 @@ def function_para_clasificar(fila_del_excel):
                     califica_como_clase = False
 
         if califica_como_clase:
-            print("calificomo" + clase)
+            #print("calificomo" + clase)
             Clases_que_son.append(clase)
         else:
             clases_que_no_con_razon[clase] = razones_por_que_no
-            print("no calificomo" + clase)
+            #print("no calificomo" + clase)
     respuesta['clases'] = Clases_que_son
-    respuesta['clases_que_con_razones'] = clases_que_no_con_razon
+    respuesta['clases_que_no_con_razones'] = clases_que_no_con_razon
     return respuesta
 
 def leer_csv_de_previas():
-    with open('IGAC.txt', mode='r', encoding="utf-8") as csv_file:
-        csv_reader = csv.DictReader(csv_file, delimiter='\t')
-        line_count = 0
-        for row in csv_reader:
-            resultado = function_para_clasificar(row)
-            if len(resultado) > 0:
-                print("clases de este previo")
-                print(resultado)
+    with open('clases.csv', mode='w', encoding='utf-8') as output:
+        csvwriter = csv.writer(output, delimiter=';')
+        with open('excel.csv', mode='r', encoding="utf-8") as csv_file:
+            csv_reader = csv.DictReader(csv_file, delimiter=';')
+            line_count = 0
+            for row in csv_reader:
+                resultado = function_para_clasificar(row)
+                if len(resultado) > 0:
+                    print("clases de este previo")
+                    print(resultado)
+                    csvwriter.writerow([row['Codigo Perfil'], ",".join( resultado['clases']), ','.join(resultado['clases_que_no_con_razones'].keys())])
 
 
-        print('final')
+            print('final')
 
 def correr_pruebas():
 
@@ -826,4 +829,4 @@ def conseguir_previas_de_shapefile(shapefile_path):
 
 
 
-conseguir_previas_de_shapefile("Ejemplo.shp")
+leer_csv_de_previas()
