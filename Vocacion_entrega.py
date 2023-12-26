@@ -58,7 +58,7 @@ clases["CTIm"]['FRECUENCIA_INUNDACION'] = ['No hay']
 clases["CTIm"]['H1_VOLUMEN_POR_CFR_1'] = '<3'
 clases["CTIm"]['PORC_PEDREGOSIDAD_SUPERFICIAL_CUBIERTA'] = '<1'
 clases["CTIm"]['PROFUNDIDAD_EFECTIVA'] = '>100'
-clases["CTIm"]['H1_CLASE_ESTRUCTURA_1'] = ['Media' , 'Muy fina' , 'fina']
+clases["CTIc"]['H1_CLASE_ESTRUCTURA_1'] =['Media' , 'Muy fina y fina']
 clases["CTIm"]['FERTILIDAD'] = '>6.8'
 clases["CTIm"]['CE_(dS_m)'] = '<4'
 clases["CTIm"]['PORC_SAT_SODIO\nSALINIDAD_PSI '] = '<15'
@@ -620,8 +620,10 @@ clases["CRH"]['DRENAJE_NATURAL'] = ['pantanoso']
 
 
 
-def mapear_distribucion_lluvias_a_monomodal_o_bimodal(numero):
-    return numero
+def mapear_distribucion_lluvias_a_monomodal_o_bimodal(bimodal_o_modal):
+    if bimodal_o_modal == 'Monomodal o Bimodal':
+        return ['bimodal', 'monomodal']
+    return bimodal_o_modal
 
 
 
@@ -782,10 +784,23 @@ Denominación:
             else:
                 valor_de_atributo = fila_del_excel[atributo]
 
+            califica_como_clase = True
             ## El atributo es una lista, y hay que ver si este previo esta en la es
             if type(regla) is list:
                 regla = list(map(lambda x: x.lower(), regla))
-                if valor_de_atributo.lower() not in regla:
+
+
+                if type(valor_de_atributo) is list:
+                    is_in_list = False
+                    for value in valor_de_atributo:
+                        if value.lower() in regla:
+                            is_in_list = True
+                            break
+                    if not is_in_list:
+                        razones_por_que_no.append(atributo)
+                        califica_como_clase = False
+
+                elif valor_de_atributo.lower() not in regla:
                     razones_por_que_no.append(atributo)
                     califica_como_clase = False
             ## El atributo es rango con un maximo, como ['PENDIENTE'] = "<7"
@@ -810,13 +825,26 @@ Denominación:
                     califica_como_clase = False
 
         if califica_como_clase:
-            print("calificomo" + clase)
+            # print(fila_del_excel['COD_PERFIL'] + " calificomo"+ ' ' + clase)
             Clases_que_son.append(clase)
         else:
             clases_que_no_con_razon[clase] = razones_por_que_no
+
             #print("no calificomo" + clase)
     respuesta['clases'] = Clases_que_son
     respuesta['clases_que_con_razones'] = clases_que_no_con_razon
+
+    if len(Clases_que_son) == 0:
+        print(fila_del_excel['COD_PERFIL'] +  " no tiene classes")
+        print(clases_que_no_con_razon)
+        listas_de_razones = list()
+
+
+
+        for clase in clases_que_no_con_razon:
+            razones = clases_que_no_con_razon[clase]
+            listas_de_razones.append(razones)
+        print(set.intersection(*map(set, listas_de_razones)))
     return respuesta
 
 def leer_csv_de_previas():
