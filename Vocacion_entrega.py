@@ -14,7 +14,7 @@ minimo_y_maximos_por_atributo['PROFUNDIDA']['maximo'] = 151
 
 prueba = dict()
 prueba['CLIMA_AMBIENTAL'] = '9'
-prueba['DISTRIBUCION_LLUVIAS'] = 'Monomodal , Bimodal'
+prueba['DISTRIBUCION_LLUVIAS'] = ['Monomodal , Bimodal']
 prueba['PORC_PENDIENTE'] = '1-3'
 prueba['GRADO_EROSION'] = "N/A"
 prueba['DRENAJE_NATURAL'] = 'Bien Drenado'
