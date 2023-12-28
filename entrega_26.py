@@ -7,9 +7,19 @@ minimo_y_maximos_por_atributo['PROFUNDIDA'] = dict()
 minimo_y_maximos_por_atributo['PROFUNDIDA']['minimo'] = 0
 minimo_y_maximos_por_atributo['PROFUNDIDA']['maximo'] = 151
 
-## array based
-##  <50
 
+vocaciones = dict()
+###Has C = agricole
+###has P = ganaderia
+###has A = agroforestal
+###has FP = FORESTAL
+###has CR = Conservacion
+
+vocaciones['Agricola'] = []
+vocaciones['Ganaderia'] = []
+vocaciones['Agroforestal'] = []
+vocaciones['Forestal'] = []
+vocaciones['Conservacion'] = []
 
 prueba = dict()
 prueba['CLIMA_AMBIENTAL'] = '9'
@@ -861,10 +871,34 @@ Denominación:
     return respuesta
 
 
+
+def vocacion_de_previa(clases):
+    ###Has C = agricole
+    ###has P = ganaderia
+    ###has A = agroforestal
+    ###has FP = FORESTAL
+    ###has CR = Conservacion
+
+    for clase in clases:
+        if clase.startswith('C'):
+            return "Agricola"
+
+        if clase.startswith('P'):
+            return "Ganaderia"
+
+        if 'A' in clase:
+            return "Agricola"
+
+        if clase.startswith('FP'):
+            return "Forestal"
+
+        if clase.startswith('C'):
+            return "Conservaction"
+    return ""
 def leer_csv_de_previas():
     with open('clases.csv', mode='w', encoding='utf-8') as output:
         csvwriter = csv.writer(output, delimiter=';')
-        csvwriter.writerow(['COD_PERFIL', 'UCS_F', 'CLASES'])
+        csvwriter.writerow(['COD_PERFIL', 'UCS_F','VOCACION', 'CLASES'])
         with open('20231226 Base Magdalena y Cesar_Información SHAPE.csv', mode='r', encoding="utf-8") as csv_file:
             csv_reader = csv.DictReader(csv_file, delimiter=';')
             line_count = 0
@@ -872,7 +906,7 @@ def leer_csv_de_previas():
 
             for row in csv_reader:
                 resultado = function_para_clasificar(row)
-                csvwriter.writerow([row['COD_PERFIL'], row['UCS_F'], ",".join(resultado['clases'])])
+                csvwriter.writerow([row['COD_PERFIL'], row['UCS_F'], vocacion_de_previa(resultado['clases'])  , ",".join(resultado['clases'])])
 
             print('final')
 
