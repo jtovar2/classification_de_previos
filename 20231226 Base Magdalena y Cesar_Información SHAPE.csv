@@ -1,0 +1,549 @@
+COD_PERFIL;UCS_F;FASES;CLIMA_AMBIENTAL;DISTRIBUCION_LLUVIAS;PORC_PENDIENTE;GRADO_EROSION;DRENAJE_NATURAL;FRECUENCIA_INUNDACION;H1_VOLUMEN_POR_CFR_1;PORC_PEDREGOSIDAD_SUPERFICIAL_CUBIERTA;PROFUNDIDAD_EFECTIVA;H1_CLASE_ESTRUCTURA_1;FERTILIDAD;CE_(dS_m);"PORC_SAT_SODIO
+SALINIDAD_PSI ";PORC_SAI;PORC_CARBONO ORGANICO
+SN-004;AR02d;d;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02dw;dw;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02e;e;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02ew;ew;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02f;f;21;Monomodal;50-75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02fw;fw;21;Monomodal;50-75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02g;g;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02gw;gw;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-126;AR03e;e;18;Bimodal;25-50;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;AR03f;f;18;Bimodal;50-75;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;AR03g;g;18;Bimodal;>75;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+47S214;LWE01b;b;3;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;35;3 - 15;25 - 50;N/A;Muy baja;0;0;0;0.66
+47S214;LWE01c;c;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;35;3 - 15;25 - 50;N/A;Muy baja;0;0;0;0.66
+47S214;LWE01d;d;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;35;3 - 15;25 - 50;N/A;Muy baja;0;0;0;0.66
+47S214;LWE01dp;dp;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;35;>15%;25 - 50;N/A;Muy baja;0;0;0;0.66
+47S214;LWE01ep;ep;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;35;>15%;25 - 50;N/A;Muy baja;0;0;0;0.66
+47S210;LWE02b;b;3;Monomodal o Bimodal;3-7;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;LWE02c;c;3;Monomodal o Bimodal;7-12;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;LWE02d;d;3;Monomodal o Bimodal;12-25;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;LWE02dp;dp;3;Monomodal o Bimodal;12-25;Ligero;Moderadamente excesivo;;20;>15%;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;LWE02e;e;3;Monomodal o Bimodal;25-50;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+MG-079;LWE03a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;35;N/A;<25;N/A;Media;0;0;0;49.4
+MG-079;LWE03b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;35;N/A;<25;N/A;Media;0;0;0;49.4
+SMG-090;LWI03b;b;3;Monomodal o Bimodal;3-7;Ligero;Excesivamente drenado;;5;N/A;100 - 150;Fina y media;Baja;0;0;0;2.5
+SMG-090;LWI03c;c;3;Monomodal o Bimodal;7-12;Ligero;Excesivamente drenado;;5;N/A;100 - 150;Fina y media;Baja;0;0;0;2.5
+SMG-090;LWI03d;d;3;Monomodal o Bimodal;12-25;Ligero;Excesivamente drenado;;5;N/A;100 - 150;Fina y media;Baja;0;0;0;2.5
+SMG-090;LWI03e;e;3;Monomodal o Bimodal;25-50;Ligero;Excesivamente drenado;;5;N/A;100 - 150;Fina y media;Baja;0;0;0;2.5
+47S253;LWI04b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;20;N/A;100 - 150;Fina y media;Baja;0;0;0;2.82
+47S140;LWI05az;az;3;Monomodal o Bimodal;0-3;N/A;Muy pobre;;N/A;<0.1;<25;Fina;Media;0;0;0;13.13
+47S140;LWI05bz;bz;3;Monomodal o Bimodal;3-7;N/A;Muy pobre;;N/A;<0.1;<25;Fina;Media;0;0;0;13.13
+47S075;LWI9305a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;Fina y media;Media;0;0;0;10.98
+47S075;LWI9305aip;aip;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;>15%;100 - 150;Fina y media;Media;0;0;0;10.98
+SMG-111;LWK9202/LWI01/LWI02b;b;3;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Baja;0;0;1.27;2.2
+SMG-111;LWK9202/LWI01/LWI02c;c;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Baja;0;0;1.27;2.2
+SMG-111;LWK9202/LWI01/LWI02d;d;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Baja;0;0;1.27;2.2
+47S253;LWM01b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;20;N/A;100 - 150;Fina y media;Baja;0;0;0;2.82
+47S253;LWM01c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;20;N/A;100 - 150;Fina y media;Baja;0;0;0;2.82
+47S253;LWM01d;d;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;20;N/A;100 - 150;Fina y media;Baja;0;0;0;2.82
+47S235;LWM02b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;0.61
+47S235;LWM02c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;0.61
+47S235;LWM02d;d;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;0.61
+47S257;LWM03a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Media;0;32.12;0;99.3
+47S257;LWM03ak;ak;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Media;0;>15%;0;99.3
+47S257;LWM03az;az;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Media;0;32.12;0;99.3
+47S257;LWM03b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Media;0;32.12;0;99.3
+P-018;LWM04a;a;3;Monomodal o Bimodal;0-3;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;Fina y media;Muy baja;0;0;0;0
+P-018;LWM04ai;ai;3;Monomodal o Bimodal;0-3;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;Fina y media;Muy baja;0;0;0;0
+P-018;LWM04aip;aip;3;Monomodal o Bimodal;0-3;N/A;Moderadamente excesivo;;N/A;>15%;100 - 150;Fina y media;Muy baja;0;0;0;0
+47S097;LWM05/LWI9304/LWM05_Aa;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;Media y gruesa;Media;0;0;0;106
+47S097;LWM05/LWI9304/LWM05_Aai;ai;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;Media y gruesa;Media;0;0;0;106
+47S097;LWM05/LWI9304/LWM05_Aaip;aip;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;>15%;100 - 150;Media y gruesa;Media;0;0;0;106
+SN-004;MDE01b;b;21;Monomodal;3-7;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01d;d;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01dw;dw;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01e;e;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01et;et;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01ew;ew;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01f;f;21;Monomodal;50-75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01fw;fw;21;Monomodal;50-75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01g;g;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01gw;gw;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-126;MDE02ap;ap;18;Bimodal;0-3;N/A;Excesivo;;25;>15%;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MDE02apw;apw;18;Bimodal;0-3;N/A;Excesivo;;25;>15%;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MFE01d;d;18;Bimodal;12-25;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MFE01ep;ep;18;Bimodal;25-50;N/A;Excesivo;;25;>15%;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MFE01fp;fp;18;Bimodal;50-75;N/A;Excesivo;;25;>15%;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-005;MFI01d;d;18;Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01e;e;18;Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01f;f;18;Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01g;g;18;Bimodal;>75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-003;MFI02bp;bp;18;Bimodal;3-7;Moderado;Pobre;;N/A;>15%;25 - 50;Fina;Baja;0;0;22.8;29
+SN-003;MFI02cp;cp;18;Bimodal;7-12;Moderado;Pobre;;N/A;>15%;25 - 50;Fina;Baja;0;0;22.8;29
+SN-003;MFI02dp;dp;18;Bimodal;12-25;Moderado;Pobre;;N/A;>15%;25 - 50;Fina;Baja;0;0;22.8;29
+SN-128;MFI03bp;bp;18;Bimodal;3-7;Ligero;Bien drenado;;N/A;>15%;50 - 75;Fina y media;Muy baja;0;0;0;1
+SN-128;MFI03cp;cp;18;Bimodal;7-12;Ligero;Bien drenado;;N/A;>15%;50 - 75;Fina y media;Muy baja;0;0;0;1
+SN-128;MFI03dp;dp;18;Bimodal;12-25;Ligero;Bien drenado;;N/A;>15%;50 - 75;Fina y media;Muy baja;0;0;0;1
+SN-128;MFI03ep;ep;18;Bimodal;25-50;Ligero;Bien drenado;;N/A;>15%;50 - 75;Fina y media;Muy baja;0;0;0;1
+SN-128;MFI04a;a;18;Bimodal;0-3;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Muy baja;0;0;0;1
+SN-128;MFI04ap;ap;18;Bimodal;0-3;Ligero;Bien drenado;;N/A;>15%;50 - 75;Fina y media;Muy baja;0;0;0;1
+SN-128;MFI04apw;apw;18;Bimodal;0-3;Ligero;Bien drenado;;N/A;>15%;50 - 75;Fina y media;Muy baja;0;0;0;1
+A-130;MGI01/MJI01d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01f;f;9;Monomodal o Bimodal;50-75;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01g;g;9;Monomodal o Bimodal;>75;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+SN-030;MGI03d;d;14;Monomodal o Bimodal;12-25;Ligero;Moderadamente excesivo;;N/A;N/A;50 - 75;Fina;Baja;0;0;2;8
+SN-030;MGI03e;e;14;Monomodal o Bimodal;25-50;Ligero;Moderadamente excesivo;;N/A;N/A;50 - 75;Fina;Baja;0;0;2;8
+PC-028;MJE01ew;ew;18;Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;<25;gruesa;Muy baja;0;0;63.8;3
+PC-028;MJE01fw;fw;18;Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;<25;gruesa;Muy baja;0;0;63.8;3
+PC-028;MJE01gw;gw;18;Bimodal;>75;Ligero;Bien drenado;;N/A;N/A;<25;gruesa;Muy baja;0;0;63.8;3
+47S202;MJI02/MJI03e;e;15;Bimodal;25-50;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03f;f;15;Bimodal;50-75;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03g;g;15;Bimodal;>75;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S216;MPI06dpw;dpw;10;Bimodal;12-25;N/A;Bien drenado;;N/A;>15%;50 - 75;Media;Muy baja;0;0;0;11.93
+SN-115;MQE01d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+SN-115;MQE01e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+SN-115;MQE01f;f;9;Monomodal o Bimodal;50-75;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+SN-115;MQE01g;g;9;Monomodal o Bimodal;>75;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+A-187;MQE02a;a;9;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina;Baja;0;0;0;4.8
+47S230;MQI01d;d;9;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01e;e;9;Monomodal o Bimodal;25-50;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01e1;e1;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01f;f;9;Monomodal o Bimodal;50-75;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01fw;fw;9;Monomodal o Bimodal;50-75;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01g;g;9;Monomodal o Bimodal;>75;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+SMG-039;MQI04/MQD-1f;f;9;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+P-014;MQI06d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;75 - 100;Muy fina;Muy baja;0;0;0;9
+P-014;MQI06e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;75 - 100;Muy fina;Muy baja;0;0;0;9
+47S204;MQM02d;d;10;Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;22.03
+47S204;MQM02e;e;10;Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;22.03
+47S204;MQM02e1;e1;10;Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;22.03
+47S204;MQM02f;f;10;Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;22.03
+47S204;MQM02f1;f1;10;Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;22.03
+47S204;MQM02g;g;10;Bimodal;>75;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;22.03
+SN-126;MR02b;b;18;Bimodal;3-7;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MR02cw;cw;18;Bimodal;7-12;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MR02d;d;18;Bimodal;12-25;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MR02dw;dw;18;Bimodal;12-25;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MR02e;e;18;Bimodal;25-50;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MR02ew;ew;18;Bimodal;25-50;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MR02f;f;18;Bimodal;50-75;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MR02fw;fw;18;Bimodal;50-75;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+NC-SJB-005A;MVVa;a;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+47S210;MWE05cw;cw;3;Monomodal o Bimodal;7-12;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;MWE05dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;MWE05ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;MWE05ew1;ew1;3;Monomodal o Bimodal;25-50;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S205;MWI01dw;dw;2;Monomodal;12-25;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01dw1;dw1;2;Monomodal;12-25;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01e;e;2;Monomodal;25-50;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01ew;ew;2;Monomodal;25-50;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01ew1;ew1;2;Monomodal;25-50;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01f;f;2;Monomodal;50-75;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01fw;fw;2;Monomodal;50-75;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01gw;gw;2;Monomodal;>75;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+MG-080;MWI03dpw;dpw;4;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;>15%;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03dw;dw;4;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03ew;ew;4;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03fw;fw;4;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+47S227;MWI04/MWM03_1dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;5;N/A;75 - 100;Fina y media;Baja;0;0;0;1.35
+47S227;MWI04/MWM03_1ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;5;N/A;75 - 100;Fina y media;Baja;0;0;0;1.35
+47S227;MWI04/MWM03_1fw;fw;3;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;5;N/A;75 - 100;Fina y media;Baja;0;0;0;1.35
+P-035;MWI05cw;cw;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+P-035;MWI05dw;dw;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+SMG-080;MWL8801dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Excesivamente drenado;;40;N/A;<25;Fina y media;Media;0;0;0;60.8
+SMG-080;MWL8801ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Excesivamente drenado;;40;N/A;<25;Fina y media;Media;0;0;0;60.8
+47S208;MWM01ew;ew;3;Monomodal o Bimodal;25-50;N/A;Bien drenado;;20;0.1 - 3;50 - 75;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+MG-091;MWM03cw;cw;3;Monomodal o Bimodal;7-12;Moderado;Bien drenado;;N/A;15 - 50;<25;Fina y media;Muy baja;0;0;0;10.9
+MG-091;MWM03dw;dw;3;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;15 - 50;<25;Fina y media;Muy baja;0;0;0;10.9
+MG-091;MWM03dw1;dw1;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;15 - 50;<25;Fina y media;Muy baja;0;0;0;10.9
+MG-091;MWM03ew;ew;3;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;15 - 50;<25;Fina y media;Muy baja;0;0;0;10.9
+MG-091;MWM03ew1;ew1;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;15 - 50;<25;Fina y media;Muy baja;0;0;0;10.9
+47S229;MWM04cw;cw;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;25;3 - 15;50 - 75;Fina y media;Baja;0;0;0;0.63
+47S229;MWM04dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;25;3 - 15;50 - 75;Fina y media;Baja;0;0;0;0.63
+47S229;MWM04ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;25;3 - 15;50 - 75;Fina y media;Baja;0;0;0;0.63
+47S229;MWM04ew1;ew1;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;25;3 - 15;50 - 75;Fina y media;Baja;0;0;0;0.63
+47S229;MWM04fw;fw;3;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;25;3 - 15;50 - 75;Fina y media;Baja;0;0;0;0.63
+47S203;MWM05bw;bw;2;Monomodal;3-7;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+47S203;MWM05dw;dw;2;Monomodal;12-25;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+47S203;MWM05ew;ew;2;Monomodal;25-50;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+SMG-078;MWM08bw;bw;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;81.8
+SMG-078;MWM08cw;cw;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;81.8
+SMG-078;MWM09aw;aw;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;81.8
+47S308;PAsA_01b;b;3;Monomodal o Bimodal;3-7;N/A;Moderadamente excesivo;;0;N/A;100 - 150;Fina y media;0;#N/A;#N/A;#N/A;#N/A
+47S215;PWE01a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;N/A;Baja;0;0;0;2.28
+47S215;PWE01b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;<0.1;100 - 150;N/A;Baja;0;0;0;2.28
+MG-059;PWE02a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;50 - 75;N/A;Muy baja;0;0;23.1;2
+MG-059;PWE02b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;50 - 75;N/A;Muy baja;0;0;23.1;2
+47S233;PWE03a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;0.1 - 3;100 - 150;Fina y media;Baja;0;0;0;11.54
+47S233;PWE03av;av;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;0.1 - 3;100 - 150;Fina y media;Baja;0;0;0;11.54
+47S233;PWE03avp;avp;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;>15%;100 - 150;Fina y media;Baja;0;0;0;11.54
+47S233;PWE03b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;0.1 - 3;100 - 150;Fina y media;Baja;0;0;0;11.54
+47S233;PWE03bv;bv;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;0.1 - 3;100 - 150;Fina y media;Baja;0;0;0;11.54
+47S209;PWE04b;b;3;Monomodal o Bimodal;3-7;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;Fina;Media;0;0;0;60.54
+MG-078;PWE05a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Media;0;0;0;50.2
+MG-078;PWE05ai;ai;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Media;0;0;0;50.2
+MG-078;PWE05aip;aip;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;>15%;100 - 150;N/A;Media;0;0;0;50.2
+SN-118;PWI01b;b;4;Monomodal o Bimodal;3-7;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-118;PWI01c;c;4;Monomodal o Bimodal;7-12;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-118;PWI01d;d;4;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+47S234;PWI02/03b;b;3;Monomodal o Bimodal;3-7;N/A;Moderadamente excesivo;;N/A;N/A;50 - 75;N/A;Baja;0;0;35.44;0.48
+47S243;PWI06a;a;3;Monomodal o Bimodal;0-3;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;N/A;Baja;0;0;0;62.04
+47S226;PWI07a;a;3;Monomodal o Bimodal;0-3;N/A;Imperfecto;;N/A;N/A;100 - 150;Media y gruesa;Media;0;0;0;39.39
+47S226;PWI07b;b;3;Monomodal o Bimodal;3-7;N/A;Imperfecto;;N/A;N/A;100 - 150;Media y gruesa;Media;0;0;0;39.39
+MG-039;PWI08c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;100 - 150;Media;Media;0;0;0;243
+MG-039;PWI08d;d;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;N/A;100 - 150;Media;Media;0;0;0;243
+47S256;PWI09az;az;3;Monomodal o Bimodal;0-3;N/A;Pobre;;N/A;N/A;25 - 50;Media;Baja;0;0;0;16.95
+47S256;PWI09bz;bz;3;Monomodal o Bimodal;3-7;N/A;Pobre;;N/A;N/A;25 - 50;Media;Baja;0;0;0;16.95
+SMG-095;VWF9703a;a;3;Monomodal o Bimodal;0-3;Ligero;Bien drenado;;N/A;N/A;50 - 75;Media y gruesa;#N/A;#N/A;#N/A;#N/A;#N/A
+SMG-106;VWI9302a;a;3;Monomodal o Bimodal;0-3;N/A;Moderadamente bien drenado;;N/A;N/A;25 - 50;Fina y media;Alta;0;0;0.99;38.7
+SMG-097;VWK9201b;b;3;Monomodal o Bimodal;3-7;N/A;Imperfecto;;N/A;N/A;75 - 100;Media y gruesa;Alta;0;0;0;87.1
+SMG-126;VWK9301ai;ai;3;Monomodal o Bimodal;0-3;N/A;Muy pobre;;N/A;N/A;<25;Media y gruesa;Media;0;0;0;10.5
+SMG-126;VWK9301bi;bi;3;Monomodal o Bimodal;3-7;N/A;Muy pobre;;N/A;N/A;<25;Media y gruesa;Media;0;0;0;10.5
+47S236;VWM01a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Media;0;0;0;42.32
+47S236;VWM01b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Media;0;0;0;42.32
+SN-004;AR02dw;dw;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02ew;ew;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02fw;fw;21;Monomodal;50-75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02gw;gw;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+47S214;LWE01b;b;3;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;35;3 - 15;25 - 50;N/A;Muy baja;0;0;0;0.66
+47S214;LWE01c;c;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;35;3 - 15;25 - 50;N/A;Muy baja;0;0;0;0.66
+47S210;LWE02b;b;3;Monomodal o Bimodal;3-7;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;LWE02c;c;3;Monomodal o Bimodal;7-12;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S210;LWE02d;d;3;Monomodal o Bimodal;12-25;Ligero;Moderadamente excesivo;;20;3 - 15;25 - 50;N/A;Baja;0;0;43.01;0.39
+47S253;LWM01b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;20;N/A;100 - 150;Fina y media;Baja;0;0;0;2.82
+P-018;LWM04a;a;3;Monomodal o Bimodal;0-3;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;Fina y media;Muy baja;0;0;0;0
+SN-004;MDE01bw;bw;21;Monomodal;3-7;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01cw;cw;21;Monomodal;7-12;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01dw;dw;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01ew;ew;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01fw;fw;21;Monomodal;50-75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01gw;gw;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-126;MDE02apw;apw;18;Bimodal;0-3;N/A;Excesivo;;25;>15%;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MFE01ew;ew;18;Bimodal;25-50;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-126;MFE01fw;fw;18;Bimodal;50-75;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+SN-005;MFI01ew;ew;18;Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01f;f;18;Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01fw;fw;18;Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01g;g;18;Bimodal;>75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01gw;gw;18;Bimodal;>75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-128;MFI04a;a;18;Bimodal;0-3;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Muy baja;0;0;0;1
+SN-128;MFI04aw;aw;18;Bimodal;0-3;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Muy baja;0;0;0;1
+A-130;MGI01/MJI01d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01ew;ew;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01f;f;9;Monomodal o Bimodal;50-75;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01fw;fw;9;Monomodal o Bimodal;50-75;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01g;g;9;Monomodal o Bimodal;>75;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+A-130;MGI01/MJI01gw;gw;9;Monomodal o Bimodal;>75;Moderado;Bien drenado;;N/A;N/A;>150;Fina;Media;0;0;0;39
+SN-029;MGI02dw;dw;14;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;<0.1;100 - 150;Fina y media;Muy baja;0;0;80;3
+SN-029;MGI02ew;ew;14;Monomodal o Bimodal;25-50;N/A;Bien drenado;;N/A;<0.1;100 - 150;Fina y media;Muy baja;0;0;80;3
+SN-031;MGQapw;apw;14;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;>15%;75 - 100;Fina;Media;0;0;2.2;24
+47S202;MJI02/MJI03d;d;15;Bimodal;12-25;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03dw;dw;15;Bimodal;12-25;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03e;e;15;Bimodal;25-50;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03ew;ew;15;Bimodal;25-50;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03f;f;15;Bimodal;50-75;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03fw;fw;15;Bimodal;50-75;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03g;g;15;Bimodal;>75;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03g1;g1;15;Bimodal;>75;Ligero;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S202;MJI02/MJI03gw;gw;15;Bimodal;>75;N/A;Bien drenado;;5;3 - 15;100 - 150;Fina;Muy baja;0;0;97.41;2.59
+47S216;MPI01d;d;10;Bimodal;12-25;N/A;Bien drenado;;N/A;<0.1;50 - 75;Media;Muy baja;0;0;0;11.93
+47S216;MPI01ew;ew;10;Bimodal;25-50;N/A;Bien drenado;;N/A;<0.1;50 - 75;Media;Muy baja;0;0;0;11.93
+47S216;MPI01fw;fw;10;Bimodal;50-75;N/A;Bien drenado;;N/A;<0.1;50 - 75;Media;Muy baja;0;0;0;11.93
+47S225;MPI03/MQI03e;e;10;Bimodal;25-50;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03ew;ew;10;Bimodal;25-50;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03f;f;10;Bimodal;50-75;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03fw;fw;10;Bimodal;50-75;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03fw1;fw1;10;Bimodal;50-75;Ligero;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03g;g;10;Bimodal;>75;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03grw;grw;10;Bimodal;>75;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03gw;gw;10;Bimodal;>75;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S225;MPI03/MQI03gw1;gw1;10;Bimodal;>75;Ligero;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Baja;0;0;0;2.53
+47S212;MPI04dw;dw;10;Bimodal;12-25;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Muy baja;0;0;99.34;0.48
+47S212;MPI04ew;ew;10;Bimodal;25-50;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Muy baja;0;0;99.34;0.48
+47S212;MPI04fw;fw;10;Bimodal;50-75;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Muy baja;0;0;99.34;0.48
+47S212;MPI04gw;gw;10;Bimodal;>75;N/A;Bien drenado;;N/A;3 - 15;100 - 150;Fina y media;Muy baja;0;0;99.34;0.48
+47S216;MPI06dpw;dpw;10;Bimodal;12-25;N/A;Bien drenado;;N/A;>15%;50 - 75;Media;Muy baja;0;0;0;11.93
+47S216;MPI06dpw1;dpw1;10;Bimodal;12-25;N/A;Bien drenado;;N/A;>15%;50 - 75;Media;Muy baja;0;0;0;11.93
+47S216;MPI06dw;dw;10;Bimodal;12-25;N/A;Bien drenado;;N/A;<0.1;50 - 75;Media;Muy baja;0;0;0;11.93
+47S254;MPM01ew;ew;10;Bimodal;25-50;N/A;Bien drenado;;N/A;<0.1;75 - 100;Media;Baja;0;0;0;15.35
+47S254;MPM01ewm;ewm;10;Bimodal;25-50;N/A;Bien drenado;;N/A;<0.1;75 - 100;Media;Baja;0;0;0;15.35
+47S254;MPM01fw;fw;10;Bimodal;50-75;N/A;Bien drenado;;N/A;<0.1;75 - 100;Media;Baja;0;0;0;15.35
+47S254;MPM01gw;gw;10;Bimodal;>75;N/A;Bien drenado;;N/A;<0.1;75 - 100;Media;Baja;0;0;0;15.35
+YD-413;MPQapw;apw;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;>15%;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-115;MQE01d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+SN-115;MQE01e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+SN-115;MQE01f;f;9;Monomodal o Bimodal;50-75;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+SN-115;MQE01g;g;9;Monomodal o Bimodal;>75;Moderado;Bien drenado;;N/A;N/A;50 - 75;Media;Baja;0;0;8.9;10
+47S230;MQI01d;d;9;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01dw;dw;9;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01e;e;9;Monomodal o Bimodal;25-50;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01e1;e1;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01ew;ew;9;Monomodal o Bimodal;25-50;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01ew1;ew1;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01f;f;9;Monomodal o Bimodal;50-75;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01f1;f1;9;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01fw;fw;9;Monomodal o Bimodal;50-75;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01g;g;9;Monomodal o Bimodal;>75;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01g1;g1;9;Monomodal o Bimodal;>75;Ligero;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S230;MQI01gw;gw;9;Monomodal o Bimodal;>75;N/A;Bien drenado;;N/A;0.1 - 3;75 - 100;Fina y media;Baja;0;0;0;2.95
+47S263;MQI02d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;15;N/A;100 - 150;Fina y media;Muy baja;0;0;89.12;11.17
+47S263;MQI02e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;15;N/A;100 - 150;Fina y media;Muy baja;0;0;89.12;11.17
+47S263;MQI02f;f;9;Monomodal o Bimodal;50-75;Moderado;Bien drenado;;15;N/A;100 - 150;Fina y media;Muy baja;0;0;89.12;11.17
+SMG-039;MQI04/MQD-1e;e;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+SMG-039;MQI04/MQD-1f;f;9;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+SMG-039;MQI04/MQD-1g;g;9;Monomodal o Bimodal;>75;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+47S264;MQI05c;c;9;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;N/A;<25;Media y gruesa;Baja;0;0;80.82;0.04
+47S264;MQI05d;d;9;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;<25;Media y gruesa;Baja;0;0;80.82;0.04
+47S264;MQI05d1;d1;9;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;<25;Media y gruesa;Baja;0;0;80.82;0.04
+47S264;MQI05e;e;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;<25;Media y gruesa;Baja;0;0;80.82;0.04
+P-014;MQI06ew;ew;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;75 - 100;Muy fina;Muy baja;0;0;0;9
+47S228;MQM01e;e;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;3 - 15;50 - 75;Fina y media;Baja;0;0;0;10.62
+47S228;MQM01e1;e1;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;3 - 15;50 - 75;Fina y media;Baja;0;0;0;10.62
+47S228;MQM01f;f;9;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;3 - 15;50 - 75;Fina y media;Baja;0;0;0;10.62
+47S228;MQM01f1;f1;9;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;3 - 15;50 - 75;Fina y media;Baja;0;0;0;10.62
+47S228;MQM01g;g;9;Monomodal o Bimodal;>75;Ligero;Bien drenado;;N/A;3 - 15;50 - 75;Fina y media;Baja;0;0;0;10.62
+YD-413;MQQap;ap;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;>15%;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-126;MR02fw;fw;18;Bimodal;50-75;N/A;Excesivo;;25;N/A;<25;Fina y media;Muy baja;0;0;47.5;27
+MG-085;MUAe;e;4;Monomodal o Bimodal;25-50;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Muy baja;0;0;0;0
+MG-085;MUAew;ew;4;Monomodal o Bimodal;25-50;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Muy baja;0;0;0;0
+MG-085;MUAf;f;4;Monomodal o Bimodal;50-75;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Muy baja;0;0;0;0
+MG-085;MUAfw;fw;4;Monomodal o Bimodal;50-75;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Muy baja;0;0;0;0
+47S296;MVA_1e;e;4;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;0;N/A;100 - 150;Fina y media;0;#N/A;#N/A;#N/A;#N/A
+47S296;MVA_1f;f;4;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;0;N/A;100 - 150;Fina y media;0;#N/A;#N/A;#N/A;#N/A
+NC-SJB-005A;MVVa;a;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+NC-SJB-005A;MVVaw;aw;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+47S267;MWE01dw;dw;3;Monomodal o Bimodal;12-25;Moderado;Moderadamente excesivo;;30;N/A;25 - 50;N/A;Baja;0;0;0;0.97
+47S267;MWE01dw1;dw1;3;Monomodal o Bimodal;12-25;Ligero;Moderadamente excesivo;;30;N/A;25 - 50;N/A;Baja;0;0;0;0.97
+47S267;MWE01ew;ew;3;Monomodal o Bimodal;25-50;Moderado;Moderadamente excesivo;;30;N/A;25 - 50;N/A;Baja;0;0;0;0.97
+47S267;MWE01ew1;ew1;3;Monomodal o Bimodal;25-50;Ligero;Moderadamente excesivo;;30;N/A;25 - 50;N/A;Baja;0;0;0;0.97
+47S267;MWE01fw;fw;3;Monomodal o Bimodal;50-75;Moderado;Moderadamente excesivo;;30;N/A;25 - 50;N/A;Baja;0;0;0;0.97
+47S267;MWE01fw1;fw1;3;Monomodal o Bimodal;50-75;Ligero;Moderadamente excesivo;;30;N/A;25 - 50;N/A;Baja;0;0;0;0.97
+SMG-084;MWE02dw;dw;9;Monomodal o Bimodal;12-25;N/A;Excesivamente drenado;;15;N/A;25 - 50;Media y gruesa;Baja;0;0;0;10.3
+SMG-084;MWE02ew;ew;9;Monomodal o Bimodal;25-50;N/A;Excesivamente drenado;;15;N/A;25 - 50;Media y gruesa;Baja;0;0;0;10.3
+SMG-084;MWE02fw;fw;9;Monomodal o Bimodal;50-75;N/A;Excesivamente drenado;;15;N/A;25 - 50;Media y gruesa;Baja;0;0;0;10.3
+SMG-084;MWE02fw1;fw1;9;Monomodal o Bimodal;50-75;Ligero;Excesivamente drenado;;15;N/A;25 - 50;Media y gruesa;Baja;0;0;0;10.3
+SMG-084;MWE02gw;gw;9;Monomodal o Bimodal;>75;N/A;Excesivamente drenado;;15;N/A;25 - 50;Media y gruesa;Baja;0;0;0;10.3
+47S258;MWE03dw;dw;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;20;0.1 - 3;<25;Fina y media;Muy baja;0;0;0;85.42
+47S258;MWE03epw1;epw1;3;Monomodal o Bimodal;25-50;N/A;Bien drenado;;20;>15%;<25;Fina y media;Muy baja;0;0;0;85.42
+47S258;MWE03ew;ew;3;Monomodal o Bimodal;25-50;N/A;Bien drenado;;20;0.1 - 3;<25;Fina y media;Muy baja;0;0;0;85.42
+47S258;MWE03ew1;ew1;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;20;0.1 - 3;<25;Fina y media;Muy baja;0;0;0;85.42
+47S258;MWE03ewr;ewr;3;Monomodal o Bimodal;25-50;N/A;Bien drenado;;20;0.1 - 3;<25;Fina y media;Muy baja;0;0;0;85.42
+47S258;MWE03fpw1r;fpw1r;3;Monomodal o Bimodal;50-75;N/A;Bien drenado;;20;>15%;<25;Fina y media;Muy baja;0;0;0;85.42
+47S258;MWE03fw;fw;3;Monomodal o Bimodal;50-75;N/A;Bien drenado;;20;0.1 - 3;<25;Fina y media;Muy baja;0;0;0;85.42
+47S258;MWE03gw;gw;3;Monomodal o Bimodal;>75;N/A;Bien drenado;;20;0.1 - 3;<25;Fina y media;Muy baja;0;0;0;85.42
+47S205;MWI01dw;dw;2;Monomodal;12-25;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01ew;ew;2;Monomodal;25-50;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01fw;fw;2;Monomodal;50-75;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S205;MWI01gw;gw;2;Monomodal;>75;Ligero;Moderadamente excesivo;;N/A;3 - 15;50 - 75;Fina;Baja;0;0;0;1.58
+47S211;MWI02dw;dw;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;40;3 - 15;50 - 75;Fina;Media;0;0;0;30.62
+47S211;MWI02ew;ew;3;Monomodal o Bimodal;25-50;N/A;Bien drenado;;40;3 - 15;50 - 75;Fina;Media;0;0;0;30.62
+47S211;MWI02ew1;ew1;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;40;3 - 15;50 - 75;Fina;Media;0;0;0;30.62
+47S211;MWI02ewm;ewm;3;Monomodal o Bimodal;25-50;N/A;Bien drenado;;40;3 - 15;50 - 75;Fina;Media;0;0;0;30.62
+47S211;MWI02fw;fw;3;Monomodal o Bimodal;50-75;N/A;Bien drenado;;40;3 - 15;50 - 75;Fina;Media;0;0;0;30.62
+MG-080;MWI03dw;dw;4;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03dw2;dw2;4;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03e;e;4;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03ew;ew;4;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03f;f;4;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03fw;fw;4;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03fwr;fwr;4;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+MG-080;MWI03gw;gw;4;Monomodal o Bimodal;>75;Ligero;Bien drenado;;N/A;3 - 15;75 - 100;Fina y media;Media;0;0;0;68.2
+P-035;MWI05bw;bw;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+P-035;MWI05cw;cw;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+P-035;MWI05dw;dw;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+47S208;MWM01ew;ew;3;Monomodal o Bimodal;25-50;N/A;Bien drenado;;20;0.1 - 3;50 - 75;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+47S208;MWM01fw;fw;3;Monomodal o Bimodal;50-75;N/A;Bien drenado;;20;0.1 - 3;50 - 75;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+47S219;MWM02dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM02ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM02ew2;ew2;3;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM02fpw;fpw;3;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;>15%;25 - 50;Media;Baja;0.17;0;0;29.04
+MG-091;MWM03dw;dw;3;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;15 - 50;<25;Fina y media;Muy baja;0;0;0;10.9
+47S203;MWM05bw;bw;2;Monomodal;3-7;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+47S203;MWM05cw;cw;2;Monomodal;7-12;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+47S203;MWM05dmw;dmw;2;Monomodal;12-25;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+47S203;MWM05dw;dw;2;Monomodal;12-25;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+47S203;MWM05ew;ew;2;Monomodal;25-50;Ligero;Bien drenado;;40;0.1 - 3;50 - 75;Muy fina y fina;Baja;0;0;0;0.08
+SN-121;MWM06bpw;bpw;3;Monomodal o Bimodal;3-7;Severo;Bien drenado;;15;>15%;<25;Fina;Baja;0;0;0;17
+SN-121;MWM06bw;bw;3;Monomodal o Bimodal;3-7;Severo;Bien drenado;;15;N/A;<25;Fina;Baja;0;0;0;17
+SN-121;MWM06cw;cw;3;Monomodal o Bimodal;7-12;Severo;Bien drenado;;15;N/A;<25;Fina;Baja;0;0;0;17
+SN-121;MWM06cw1;cw1;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;15;N/A;<25;Fina;Baja;0;0;0;17
+SN-121;MWM06dw;dw;3;Monomodal o Bimodal;12-25;Severo;Bien drenado;;15;N/A;<25;Fina;Baja;0;0;0;17
+SN-121;MWM06dw1;dw1;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;15;N/A;<25;Fina;Baja;0;0;0;17
+47S219;MWM07bw;bw;3;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM07bw1;bw1;3;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM07cw;cw;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM07cw1;cw1;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM07dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM07dw1;dw1;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM07ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+SMG-078;MWM08bw;bw;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;81.8
+SMG-078;MWM08c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;81.8
+SMG-078;MWM09aw;aw;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;81.8
+47S218;MXI01a;a;2;Monomodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;Media;Baja;0;0;0;19.97
+47S218;MXI01b;b;2;Monomodal;3-7;N/A;Bien drenado;;N/A;<0.1;100 - 150;Media;Baja;0;0;0;19.97
+47S245;MXV01az;az;3;Monomodal o Bimodal;0-3;N/A;Pobre;;N/A;N/A;25 - 50;N/A;Baja;0;0;0;7.11
+47S245;MXV01bz;bz;3;Monomodal o Bimodal;3-7;N/A;Pobre;;N/A;N/A;25 - 50;N/A;Baja;0;0;0;7.11
+47S306;PAaP_01a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;15;N/A;75 - 100;Fina y media;0;#N/A;#N/A;#N/A;#N/A
+47S308;PAsA_01b;b;3;Monomodal o Bimodal;3-7;N/A;Moderadamente excesivo;;0;N/A;100 - 150;Fina y media;0;#N/A;#N/A;#N/A;#N/A
+47S291;PAsA_02b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;2;N/A;100 - 150;N/A;0;#N/A;#N/A;#N/A;#N/A
+47S307;PAsP_01a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;0;N/A;100 - 150;Fina y media;0;#N/A;#N/A;#N/A;#N/A
+47S215;PWE01a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;N/A;Baja;0;0;0;2.28
+47S215;PWE01ak;ak;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;N/A;Baja;0;>15%;0;2.28
+47S215;PWE01b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;<0.1;100 - 150;N/A;Baja;0;0;0;2.28
+47S215;PWE01bk;bk;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;<0.1;100 - 150;N/A;Baja;0;>15%;0;2.28
+47S209;PWE04a;a;3;Monomodal o Bimodal;0-3;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;Fina;Media;0;0;0;60.54
+47S209;PWE04b;b;3;Monomodal o Bimodal;3-7;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;Fina;Media;0;0;0;60.54
+MG-078;PWE05a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Media;0;0;0;50.2
+MG-078;PWE05ai;ai;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Media;0;0;0;50.2
+SN-118;PWI01b;b;4;Monomodal o Bimodal;3-7;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-118;PWI01c;c;4;Monomodal o Bimodal;7-12;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-118;PWI01d;d;4;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+47S265;PWI05ax;ax;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;25 - 50;Media y gruesa;Media;0;265.38;31.81;26.46
+47S265;PWI05bpx;bpx;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;>15%;25 - 50;Media y gruesa;Media;0;265.38;31.81;26.46
+47S265;PWI05bx;bx;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;25 - 50;Media y gruesa;Media;0;265.38;31.81;26.46
+47S243;PWI06a;a;3;Monomodal o Bimodal;0-3;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;N/A;Baja;0;0;0;62.04
+47S243;PWI06b;b;3;Monomodal o Bimodal;3-7;N/A;Moderadamente excesivo;;N/A;N/A;100 - 150;N/A;Baja;0;0;0;62.04
+MG-039;PWI08c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;100 - 150;Media;Media;0;0;0;243
+MG-039;PWI08d;d;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;N/A;100 - 150;Media;Media;0;0;0;243
+47S256;PWI09az;az;3;Monomodal o Bimodal;0-3;N/A;Pobre;;N/A;N/A;25 - 50;Media;Baja;0;0;0;16.95
+SMG-124;PWI2601a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;25 - 50;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+SMG-124;PWI2601b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;25 - 50;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+47S237;PWM01ask;ask;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;25 - 50;Media;Media;>4;>15%;0;21
+P-052;PXE01ax;ax;3;Monomodal o Bimodal;0-3;N/A;Moderadamente bien drenado;;N/A;N/A;<25;Media;Alta;0;14.4;0;15
+P-052;PXE01bx;bx;3;Monomodal o Bimodal;3-7;N/A;Moderadamente bien drenado;;N/A;N/A;<25;Media;Alta;0;14.4;0;15
+P-050;PXI01azx;azx;3;Monomodal o Bimodal;0-3;N/A;Pobre;;N/A;N/A;<25;Media;Alta;0;47.4;0.61;39
+47S231;PXI02as;as;2;Monomodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Media;Media;>4;0;0;151.57
+47S231;PXI02as3;as3;2;Monomodal;0-3;Severo;Bien drenado;;N/A;N/A;100 - 150;Media;Media;>4;0;0;151.57
+47S231;PXI02azs;azs;2;Monomodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Media;Media;>4;0;0;151.57
+PR-081;PXI03a;a;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+47S313;RWE01ai;ai;3;Monomodal o Bimodal;0-3;Moderado;Excesivo;;0;N/A;100 - 150;N/A;0;#N/A;#N/A;#N/A;#N/A
+47S217;RWE02axi;axi;3;Monomodal o Bimodal;0-3;N/A;Muy pobre;;N/A;<0.1;<25;N/A;Baja; ;72.62;0;49.6
+47S255;RWH01aki;aki;2;Monomodal;0-3;N/A;Muy pobre;;N/A;N/A;<25;N/A;Alta;0;>15%;0;159.35
+47S232;RWI01a2xi;a2xi;2;Monomodal;0-3;Moderado;Muy pobre;;N/A;N/A;<25;Fina y media;Media;0.08;0;0;156.4
+47S232;RWI01axi;axi;2;Monomodal;0-3;N/A;Muy pobre;;N/A;N/A;<25;Fina y media;Media;0.08;0;0;156.4
+DOC-089;RWI02ai;ai;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+DOC-089;RWI02asi;asi;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;>4;#N/A;#N/A;#N/A
+12;RWL9702/AMP01axi;axi;#N/A;#N/A;0-3;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+47S266;RWM01ak;ak;2;Monomodal;0-3;N/A;Bien drenado;;N/A;N/A;75 - 100;Media y gruesa;Media;0;>15%;0;40.84
+47S244;RWM02ax;ax;2;Monomodal;0-3;N/A;Imperfecto;;N/A;N/A;50 - 75;Gruesa;Alta; ;0;0;52.92
+47S244;RWM02az;az;2;Monomodal;0-3;N/A;Imperfecto;;N/A;N/A;50 - 75;Gruesa;Alta; ;0;0;52.92
+SN-004;AR02d;d;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02e;e;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02ew;ew;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02g;g;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;AR02gw;gw;21;Monomodal;>75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+PC-027C;LKFa;a;15;Bimodal;0-3;N/A;Bien drenado;;0;N/A;100 - 150;Fina;Baja;0;0;33.3;3
+PC-027C;LKFb;b;15;Bimodal;3-7;N/A;Bien drenado;;0;N/A;100 - 150;Fina;Baja;0;0;33.3;3
+47S322;LPsP_01b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;0;N/A;50 - 75;N/A;0;#N/A;#N/A;#N/A;#N/A
+47S131;LWF9703bs;bs;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;<0.1;<25;Media y gruesa;Media;>4;0;0;6.6
+47S182;LWF9807az;az;3;Monomodal o Bimodal;0-3;N/A;Muy pobre;;N/A;<0.1;<25;Media;Media;0;0;0;12.79
+47S171;LWF9808as;as;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;<25;Fina y media;Alta;>4;0;0;32.19
+47S189;LWI9302b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;<0.1;25 - 50;Media;Media;0;0;0;3.62
+47S189;LWI9302c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;<0.1;25 - 50;Media;Media;0;0;0;3.62
+47S189;LWI9302d;d;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;<0.1;25 - 50;Media;Media;0;0;0;3.62
+47S075;LWI9305a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;Fina y media;Media;0;0;0;10.98
+47S190;LWK6901/LWK3001b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;<0.1;50 - 75;N/A;Muy baja;0;0;0;<2,55
+MG-050;LWK9201a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Muy baja;0;0;0;N.D.
+MG-050;LWK9201b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Muy baja;0;0;0;N.D.
+MG-050;LWK9201c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Muy baja;0;0;0;N.D.
+MG-050;LWK9201d;d;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Muy baja;0;0;0;N.D.
+SMG-111;LWK9202/LWI01/LWI02a;a;3;Monomodal o Bimodal;0-3;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Baja;0;0;1.27;2.2
+SMG-111;LWK9202/LWI01/LWI02b;b;3;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Baja;0;0;1.27;2.2
+SMG-111;LWK9202/LWI01/LWI02c;c;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Baja;0;0;1.27;2.2
+SMG-111;LWK9202/LWI01/LWI02d;d;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Baja;0;0;1.27;2.2
+47S195;LWL4801b;b;3;Monomodal o Bimodal;3-7;Ligero;Moderadamente excesivo;;10;3 - 15;25 - 50;Fina y media;Baja;0;0;0;3.79
+47S195;LWL4801c;c;3;Monomodal o Bimodal;7-12;Ligero;Moderadamente excesivo;;10;3 - 15;25 - 50;Fina y media;Baja;0;0;0;3.79
+47S195;LWL4801d;d;3;Monomodal o Bimodal;12-25;Ligero;Moderadamente excesivo;;10;3 - 15;25 - 50;Fina y media;Baja;0;0;0;3.79
+47S097;LWM05/LWI9304/LWM05_Aa;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;100 - 150;Media y gruesa;Media;0;0;0;106
+SCE-076;M123a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;0;0.1 - 3;25 - 50;Fina y media;Baja;0;0;3.54223433242507;1.5
+SCE-076;M123aw;aw;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;0;0.1 - 3;25 - 50;Fina y media;Baja;0;0;3.54223433242507;1.5
+SN-004;MDE01d;d;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01dw;dw;21;Monomodal;12-25;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01e;e;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01ew;ew;21;Monomodal;25-50;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-004;MDE01f;f;21;Monomodal;50-75;Moderado;Bien drenado;;N/A;N/A;25 - 50;Fina;Muy baja;0;0;31.25;16
+SN-005;MFI01d;d;18;Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01e;e;18;Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01f;f;18;Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-005;MFI01g;g;18;Bimodal;>75;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;56.2;6
+SN-128;MFI04a;a;18;Bimodal;0-3;Ligero;Bien drenado;;N/A;N/A;50 - 75;Fina y media;Muy baja;0;0;0;1
+A-130_;MGI01/MJI01d;d;#N/A;#N/A;12-25;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+A-130_;MGI01/MJI01dw;dw;#N/A;#N/A;12-25;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+A-130_;MGI01/MJI01e;e;#N/A;#N/A;25-50;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+A-130_;MGI01/MJI01ew;ew;#N/A;#N/A;25-50;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+A-130_;MGI01/MJI01f;f;#N/A;#N/A;50-75;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+A-130_;MGI01/MJI01fw;fw;#N/A;#N/A;50-75;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+A-130_;MGI01/MJI01g;g;#N/A;#N/A;>75;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+A-130_;MGI01/MJI01gw;gw;#N/A;#N/A;>75;#N/A;#N/A;;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-029;MGI02d;d;14;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;<0.1;100 - 150;Fina y media;Muy baja;0;0;80;3
+SN-029;MGI02dw;dw;14;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;<0.1;100 - 150;Fina y media;Muy baja;0;0;80;3
+SN-030;MGI03c;c;14;Monomodal o Bimodal;7-12;Ligero;Moderadamente excesivo;;N/A;N/A;50 - 75;Fina;Baja;0;0;2;8
+SN-031;MGQa;a;14;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Media;0;0;2.2;24
+SN-031;MGQaw;aw;14;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Media;0;0;2.2;24
+43;MKCa;a;15;Bimodal;0-3;N/A;Bien drenado;;0;N/A;>150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+43;MKCbw;bw;15;Bimodal;3-7;N/A;Bien drenado;;0;N/A;>150;Fina;#N/A;#N/A;#N/A;#N/A;#N/A
+SN-033;MLBd;d;14;Monomodal o Bimodal;12-25;Severo;Bien drenado;;N/A;N/A;100 - 150;Fina;Muy baja;0;0;69.81;4
+SN-033;MLBe;e;14;Monomodal o Bimodal;25-50;Severo;Bien drenado;;N/A;N/A;100 - 150;Fina;Muy baja;0;0;69.81;4
+SN-033;MLBew;ew;14;Monomodal o Bimodal;25-50;Severo;Bien drenado;;N/A;N/A;100 - 150;Fina;Muy baja;0;0;69.81;4
+SN-033;MLBfw;fw;14;Monomodal o Bimodal;50-75;Severo;Bien drenado;;N/A;N/A;100 - 150;Fina;Muy baja;0;0;69.81;4
+SN-033;MLBgw;gw;14;Monomodal o Bimodal;>75;Severo;Bien drenado;;N/A;N/A;100 - 150;Fina;Muy baja;0;0;69.81;4
+SN-131;MLCe;e;19;Bimodal;25-50;Ligero;Excesivo;;0;N/A;25 - 50;Fina;Baja;0;0;36.98;2
+SN-131;MLCet;et;19;Bimodal;25-50;Ligero;Excesivo;;0;N/A;25 - 50;Fina;Baja;0;0;36.98;2
+SN-131;MLCf;f;19;Bimodal;50-75;Ligero;Excesivo;;0;N/A;25 - 50;Fina;Baja;0;0;36.98;2
+A-187;MQE02a;a;9;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Fina;Baja;0;0;0;4.8
+SMG-039;MQI04/MQD-1d;d;9;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+SMG-039;MQI04/MQD-1e;e;9;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+SMG-039;MQI04/MQD-1f;f;9;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+SMG-039;MQI04/MQD-1g;g;9;Monomodal o Bimodal;>75;Ligero;Bien drenado;;5;N/A;50 - 75;Fina y media;Baja;0;0;6.5;1.2
+P-014;MQI06d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;75 - 100;Muy fina;Muy baja;0;0;0;9
+P-014;MQI06e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;75 - 100;Muy fina;Muy baja;0;0;0;9
+SN-108;MQK9202d;d;9;Monomodal o Bimodal;12-25;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;Baja;0;0;6.6;3
+SN-108;MQK9202e;e;9;Monomodal o Bimodal;25-50;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;Baja;0;0;6.6;3
+SN-108;MQK9202f;f;9;Monomodal o Bimodal;50-75;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;Baja;0;0;6.6;3
+SN-108;MQK9202g;g;9;Monomodal o Bimodal;>75;Moderado;Bien drenado;;N/A;N/A;100 - 150;Fina;Baja;0;0;6.6;3
+SN-091;MQK9301d;d;10;Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina;Muy baja;0;0;42.37;1
+SCE-076;MQL3001b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;0;0.1 - 3;25 - 50;Fina y media;Baja;0;0;3.54223433242507;1.5
+SCE-076;MQL3001c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;0;0.1 - 3;25 - 50;Fina y media;Baja;0;0;3.54223433242507;1.5
+CE-027;MVVH01a;a;10;Bimodal;0-3;N/A;Bien drenado;;0;N/A;25 - 50;Media y gruesa;Baja;0;0;0;8.7
+P-035;MWI05bw;bw;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+P-035;MWI05cw;cw;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+P-035;MWI05dw;dw;3;Monomodal o Bimodal;12-25;N/A;Bien drenado;;N/A;N/A;50 - 75;Fina;Muy baja;0;0;0;62
+SMG-124;MWI2601cw;cw;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;25 - 50;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+SMG-079;MWK8802dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Excesivamente drenado;;50;N/A;25 - 50;Fina y media;Baja;0;0;0;9.6
+SMG-079;MWK8802ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Excesivamente drenado;;50;N/A;25 - 50;Fina y media;Baja;0;0;0;9.6
+SMG-079;MWK8802fw;fw;3;Monomodal o Bimodal;50-75;Ligero;Excesivamente drenado;;50;N/A;25 - 50;Fina y media;Baja;0;0;0;9.6
+SMG-091;MWL4801bw;bw;4;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;16.3
+SMG-091;MWL4801cw;cw;4;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;16.3
+SMG-091;MWL4801dw;dw;4;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;16.3
+SMG-091;MWL4801ew;ew;4;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;16.3
+SMG-091;MWL4801fw;fw;4;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;N/A;N/A;100 - 150;Fina y media;Baja;0;0;0;16.3
+SCE-052;MWL7101aw;aw;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;0;N/A;100 - 150;Fina y media;Media;0;0;0;181
+SCE-052;MWL7101bw;bw;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;0;N/A;100 - 150;Fina y media;Media;0;0;0;181
+SCE-052;MWL7101cw;cw;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;0;N/A;100 - 150;Fina y media;Media;0;0;0;181
+SMG-080;MWL8801bw;bw;3;Monomodal o Bimodal;3-7;Ligero;Excesivamente drenado;;40;N/A;<25;Fina y media;Media;0;0;0;60.8
+SMG-080;MWL8801cw;cw;3;Monomodal o Bimodal;7-12;Ligero;Excesivamente drenado;;40;N/A;<25;Fina y media;Media;0;0;0;60.8
+SMG-080;MWL8801dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Excesivamente drenado;;40;N/A;<25;Fina y media;Media;0;0;0;60.8
+SMG-080;MWL8801ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Excesivamente drenado;;40;N/A;<25;Fina y media;Media;0;0;0;60.8
+SMG-080;MWL8801fw;fw;3;Monomodal o Bimodal;50-75;Ligero;Excesivamente drenado;;40;N/A;<25;Fina y media;Media;0;0;0;60.8
+SMG-040;MWL8803dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;40;N/A;<25;Fina y media;Muy baja;0;0;0;0
+SMG-040;MWL8803ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;40;N/A;<25;Fina y media;Muy baja;0;0;0;0
+SMG-040;MWL8803ew1;ew1;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;40;N/A;<25;Fina y media;Muy baja;0;0;0;0
+SMG-040;MWL8803fw;fw;3;Monomodal o Bimodal;50-75;Ligero;Bien drenado;;40;N/A;<25;Fina y media;Muy baja;0;0;0;0
+SMG-113;MWL8901cw;cw;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;N/A;<25;Fina;Muy baja;0;0;8.95;5.2
+SMG-113;MWL8901dw;dw;3;Monomodal o Bimodal;12-25;Ligero;Bien drenado;;N/A;N/A;<25;Fina;Muy baja;0;0;8.95;5.2
+SMG-113;MWL8901ew;ew;3;Monomodal o Bimodal;25-50;Ligero;Bien drenado;;N/A;N/A;<25;Fina;Muy baja;0;0;8.95;5.2
+47S219;MWM07bw;bw;3;Monomodal o Bimodal;3-7;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+47S219;MWM07cw;cw;3;Monomodal o Bimodal;7-12;Ligero;Bien drenado;;N/A;0.1 - 3;25 - 50;Media;Baja;0.17;0;0;29.04
+SMG-078;MWM09aw;aw;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;75 - 100;Fina;Alta;0;0;0;81.8
+SMG-124;PWI2601b;b;3;Monomodal o Bimodal;3-7;N/A;Bien drenado;;N/A;N/A;25 - 50;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+SMG-124;PWI2601c;c;3;Monomodal o Bimodal;7-12;N/A;Bien drenado;;N/A;N/A;25 - 50;Fina y media;#N/A;#N/A;#N/A;#N/A;#N/A
+47S142;PWI9301a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;Media;Media;0;0;0.3584229390681;83.3
+47S169;PWK9301a;a;3;Monomodal o Bimodal;0-3;N/A;Muy pobre;;N/A;<0.1;<25;Fina y media;Media;0;0;0;3.82
+47S182;PWL9201b;b;3;Monomodal o Bimodal;3-7;N/A;Muy pobre;;N/A;<0.1;<25;Media;Media;0;0;0;12.79
+MG-078;PWL9202a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;N/A;100 - 150;N/A;Media;0;0;0;50.2
+SMG-094;VIU_01az;az;3;Monomodal o Bimodal;0-3;Ligero;Excesivamente drenado;;N/A;N/A;100 - 150;Fina y media;Alta;0;0;0.35;130
+47S101;VWF9701a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;25 - 50;Fina y media;Media;0;0;0;41.9
+47S101;VWF9701ai;ai;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;25 - 50;Fina y media;Media;0;0;0;41.9
+SMG-095;VWF9703as;as;3;Monomodal o Bimodal;0-3;Ligero;Bien drenado;;N/A;N/A;50 - 75;Media y gruesa;#N/A;>4;#N/A;#N/A;#N/A
+47S179;VWF9803a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;<25;Media y gruesa;Media;0;0;0;39.77
+47S151;VWF9804az;az;3;Monomodal o Bimodal;0-3;N/A;Muy pobre;;N/A;<0.1;<25;Media;Alta;0;0;7.57;22.7
+47S143;VWF9807ai;ai;3;Monomodal o Bimodal;0-3;N/A;Pobre;;N/A;N/A;<25;Fina y media;Media;0;19.2;0;22.7
+SMG-105;VWI9301a;a;3;Monomodal o Bimodal;0-3;N/A;Bien drenado;;N/A;<0.1;50 - 75;Fina y media;Alta;0;0;0;276
+SMG-106;VWI9302a;a;3;Monomodal o Bimodal;0-3;N/A;Moderadamente bien drenado;;N/A;N/A;25 - 50;Fina y media;Alta;0;0;0.99;38.7
+SMG-106;VWI9302b;b;3;Monomodal o Bimodal;3-7;N/A;Moderadamente bien drenado;;N/A;N/A;25 - 50;Fina y media;Alta;0;0;0.99;38.7
+SMG-097;VWK9201a;a;3;Monomodal o Bimodal;0-3;N/A;Imperfecto;;N/A;N/A;75 - 100;Media y gruesa;Alta;0;0;0;87.1
+SMG-126;VWK9301ai;ai;3;Monomodal o Bimodal;0-3;N/A;Muy pobre;;N/A;N/A;<25;Media y gruesa;Media;0;0;0;10.5
